@@ -88,3 +88,11 @@ python eval_kb_plugin.py --dataset grailqa # graphq, webq
 cd ./transfer_domain_specific
 python eval_kb_plugin.py --dataset metaqa # soaybench
 ```
+
+## Citation
+
+If you find our work useful, please consider citing LongAlign:
+
+```
+
+```
