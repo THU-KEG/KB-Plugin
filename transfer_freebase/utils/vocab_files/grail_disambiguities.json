@@ -1,0 +1,4551 @@
+{
+  "relations": {
+    "measurement system": [
+      "measurement_unit.distance_unit.measurement_system",
+      "measurement_unit.mass_unit.measurement_system",
+      "measurement_unit.volume_unit.measurement_system",
+      "measurement_unit.time_unit.measurement_system",
+      "measurement_unit.area_unit.measurement_system",
+      "measurement_unit.pressure_unit.measurement_system",
+      "measurement_unit.energy_unit.measurement_system",
+      "measurement_unit.speed_unit.measurement_system",
+      "measurement_unit.charge_unit.measurement_system",
+      "measurement_unit.temperature_unit.measurement_system",
+      "measurement_unit.angle_unit.measurement_system",
+      "measurement_unit.unit_of_data_transmission_rate.measurement_system",
+      "measurement_unit.power_unit.measurement_system",
+      "measurement_unit.unit_of_frequency.measurement_system",
+      "measurement_unit.amount_concentration_unit.measurement_system",
+      "measurement_unit.specific_heat_capacity_unit.measurement_system",
+      "measurement_unit.current_unit.measurement_system",
+      "measurement_unit.conductance_unit.measurement_system",
+      "measurement_unit.luminance_unit.measurement_system",
+      "measurement_unit.inverse_temperature_unit.measurement_system",
+      "measurement_unit.unit_of_conductivity.measurement_system",
+      "measurement_unit.force_moment_unit.measurement_system",
+      "measurement_unit.solid_angle_unit.measurement_system",
+      "measurement_unit.unit_of_resistivity.measurement_system",
+      "measurement_unit.acceleration_unit.measurement_system",
+      "measurement_unit.magnetic_flux_density_unit.measurement_system",
+      "measurement_unit.magnetic_field_strength_unit.measurement_system",
+      "measurement_unit.specific_energy_unit.measurement_system",
+      "measurement_unit.unit_of_force.measurement_system",
+      "measurement_unit.unit_of_density.measurement_system",
+      "measurement_unit.molar_energy_unit.measurement_system",
+      "measurement_unit.angular_velocity_unit.measurement_system",
+      "measurement_unit.electric_charge_density_unit.measurement_system",
+      "measurement_unit.permeability_unit.measurement_system",
+      "measurement_unit.luminous_flux_unit.measurement_system",
+      "measurement_unit.molar_heat_capacity_unit.measurement_system",
+      "measurement_unit.electric_flux_density_unit.measurement_system",
+      "measurement_unit.surface_tension_unit.measurement_system",
+      "measurement_unit.catalytic_concentration_unit.measurement_system",
+      "measurement_unit.current_density_unit.measurement_system",
+      "measurement_unit.potential_unit.measurement_system",
+      "measurement_unit.radioactivity_unit.measurement_system",
+      "measurement_unit.luminous_intensity_unit.measurement_system",
+      "measurement_unit.magnetic_flux_unit.measurement_system",
+      "measurement_unit.resistance_unit.measurement_system",
+      "measurement_unit.radiant_intensity_unit.measurement_system",
+      "measurement_unit.radiance_unit.measurement_system",
+      "measurement_unit.wavenumber_unit.measurement_system",
+      "measurement_unit.irradiance_unit.measurement_system",
+      "measurement_unit.catalytic_activity_unit.measurement_system",
+      "measurement_unit.absorbed_dose_rate_unit.measurement_system",
+      "measurement_unit.illuminance_unit.measurement_system",
+      "measurement_unit.specific_volume_unit.measurement_system",
+      "measurement_unit.absorbed_dose_unit.measurement_system",
+      "measurement_unit.dose_equivalence_unit.measurement_system",
+      "measurement_unit.exposure_unit.measurement_system",
+      "measurement_unit.angular_acceleration_unit.measurement_system",
+      "measurement_unit.viscosity_unit.measurement_system",
+      "measurement_unit.heat_capacity_unit.measurement_system",
+      "measurement_unit.permittivity_unit.measurement_system",
+      "measurement_unit.inductance_unit.measurement_system",
+      "measurement_unit.molar_volume_unit.measurement_system",
+      "measurement_unit.thermal_conductivity_unit.measurement_system",
+      "measurement_unit.unit_of_volumetric_flow_rate.measurement_system",
+      "measurement_unit.substance_unit.measurement_system",
+      "measurement_unit.electric_field_strength_unit.measurement_system",
+      "measurement_unit.volumetric_heat_capacity_unit.measurement_system",
+      "measurement_unit.energy_density_unit.measurement_system",
+      "measurement_unit.unit_of_surface_density.measurement_system",
+      "measurement_unit.capacitance_unit.measurement_system",
+      "measurement_unit.unit_of_symbol_rate.measurement_system",
+      "measurement_unit.unit_of_brake_specific_fuel_consumption.measurement_system",
+      "measurement_unit.fuel_economy_unit.measurement_system",
+      "measurement_unit.unit_of_specific_fuel_consumption.measurement_system",
+      "measurement_unit.unit_of_molar_mass.measurement_system"
+    ],
+    "peripherals supported": [
+      "cvg.computer_videogame.peripherals_supported",
+      "cvg.game_version.peripherals_supported"
+    ],
+    "role": [
+      "music.track_contribution.role",
+      "music.group_membership.role",
+      "organization.leadership.role",
+      "projects.project_participation.role",
+      "theater.theater_role.role",
+      "religion.religious_organization_leadership.role",
+      "tv.tv_producer_episode_credit.role",
+      "organization.organization_board_membership.role",
+      "law.legal_case_party_relationship.role",
+      "opera.opera_role.role"
+    ],
+    "film cut": [
+      "film.film_film_distributor_relationship.film_cut",
+      "film.film_film_company_relationship.film_cut"
+    ],
+    "film format": [
+      "film.film.film_format",
+      "film.film_format.film_format"
+    ],
+    "special performance type": [
+      "film.performance.special_performance_type",
+      "tv.regular_tv_appearance.special_performance_type",
+      "tv.tv_guest_role.special_performance_type",
+      "tv.tv_segment_performance.special_performance_type"
+    ],
+    "film": [
+      "film.actor.film",
+      "film.performance.film",
+      "film.film_regional_release_date.film",
+      "film.film_crew_gig.film",
+      "film.film_cut.film",
+      "film.director.film",
+      "film.producer.film",
+      "film.writer.film",
+      "film.music_contributor.film",
+      "film.cinematographer.film",
+      "film.editor.film",
+      "film.personal_film_appearance.film",
+      "film.film_film_distributor_relationship.film",
+      "film.content_rating.film",
+      "music.soundtrack.film",
+      "film.dubbing_performance.film",
+      "film.film_film_company_relationship.film",
+      "film.film_song_relationship.film"
+    ],
+    "satellites": [
+      "spaceflight.satellite_orbit_type.satellites",
+      "spaceflight.satellite_type.satellites"
+    ],
+    "status": [
+      "internet.website.status",
+      "geography.glacier.status",
+      "internet.top_level_domain.status",
+      "spaceflight.rocket_engine.status",
+      "astronomy.astronomical_discovery.status",
+      "aviation.aircraft_model.status",
+      "spaceflight.rocket.status",
+      "astronomy.galactic_interaction.status"
+    ],
+    "calendar system": [
+      "time.day_of_year.calendar_system",
+      "time.month.calendar_system",
+      "time.day_of_week.calendar_system"
+    ],
+    "match": [
+      "soccer.football_player_match_participation.match",
+      "boxing.match_boxer_relationship.match",
+      "soccer.football_goal.match",
+      "soccer.football_player_substitution.match",
+      "soccer.football_disciplinary_action.match",
+      "soccer.football_team_manager_match_participation.match",
+      "cricket.cricket_player_debut.match"
+    ],
+    "game": [
+      "cvg.game_version.game",
+      "american_football.game_receiving_statistics.game",
+      "american_football.game_rushing_statistics.game",
+      "cvg.game_performance.game",
+      "cvg.musical_game_song_relationship.game",
+      "american_football.game_passing_statistics.game",
+      "games.game_expansion.game",
+      "chess.chess_move.game",
+      "chess.chess_game_participation.game",
+      "american_football.football_game_score.game"
+    ],
+    "meteorites": [
+      "astronomy.meteoric_composition.meteorites",
+      "astronomy.meteorite_source.meteorites"
+    ],
+    "party": [
+      "government.politician.party",
+      "government.political_party_tenure.party",
+      "government.election_campaign.party",
+      "government.primary_election.party",
+      "government.legislative_election_results.party"
+    ],
+    "manufacturer": [
+      "medicine.manufactured_drug_form.manufacturer",
+      "aviation.aircraft_model.manufacturer",
+      "digicams.digital_camera.manufacturer",
+      "amusement_parks.ride.manufacturer",
+      "computer.computer.manufacturer",
+      "spaceflight.spacecraft.manufacturer",
+      "bicycles.bicycle_model.manufacturer",
+      "food.candy_bar.manufacturer",
+      "spaceflight.rocket.manufacturer",
+      "medicine.drug_brand.manufacturer",
+      "boats.engine.manufacturer",
+      "skiing.lift_tenure.manufacturer",
+      "boats.nuclear_powerplant.manufacturer"
+    ],
+    "teams": [
+      "sports.pro_athlete.teams",
+      "sports.sport.teams",
+      "sports.sports_league.teams",
+      "sports.sports_facility.teams",
+      "sports.sports_team_location.teams",
+      "education.athletics_brand.teams",
+      "soccer.football_league_season.teams",
+      "soccer.football_league.teams",
+      "soccer.football_match.teams",
+      "basketball.basketball_conference.teams",
+      "basketball.basketball_division.teams",
+      "american_football.football_conference.teams",
+      "american_football.football_division.teams",
+      "baseball.baseball_league.teams",
+      "cricket.cricket_coach.teams",
+      "ice_hockey.hockey_division.teams",
+      "ice_hockey.hockey_conference.teams",
+      "cricket.cricket_tournament_event.teams",
+      "baseball.baseball_division.teams"
+    ],
+    "productions": [
+      "theater.play.productions",
+      "opera.opera.productions",
+      "opera.opera_house.productions"
+    ],
+    "running mate": [
+      "government.us_presidential_campaign.running_mate",
+      "government.us_vice_presidential_campaign.running_mate"
+    ],
+    "artist": [
+      "music.recording.artist",
+      "music.album.artist",
+      "music.record_label.artist",
+      "visual_art.artwork.artist",
+      "broadcast.content.artist",
+      "music.music_video.artist",
+      "music.concert_tour.artist",
+      "visual_art.art_series.artist",
+      "music.concert_set_list.artist",
+      "music.concert_performance.artist"
+    ],
+    "capital": [
+      "location.administrative_division.capital",
+      "location.administrative_division_capital_relationship.capital",
+      "location.country.capital",
+      "location.ar_department.capital",
+      "location.it_province.capital",
+      "location.us_state.capital",
+      "location.es_province.capital",
+      "location.jp_prefecture.capital",
+      "location.es_comarca.capital",
+      "location.mx_state.capital",
+      "location.br_state.capital",
+      "location.fr_region.capital",
+      "location.ar_province.capital",
+      "location.cn_province.capital",
+      "location.it_region.capital",
+      "location.de_state.capital",
+      "location.nl_province.capital",
+      "location.kp_province.capital",
+      "location.province.capital",
+      "location.ru_republic.capital",
+      "location.tw_province.capital",
+      "location.es_autonomous_community.capital",
+      "location.vn_province.capital",
+      "location.cn_prefecture.capital",
+      "location.es_autonomous_city.capital",
+      "location.my_state.capital",
+      "location.ca_territory.capital",
+      "location.cn_autonomous_prefecture.capital",
+      "location.cn_autonomous_region.capital",
+      "location.cn_autonomous_county.capital",
+      "location.ru_autonomous_oblast.capital",
+      "location.jp_subprefecture.capital",
+      "location.in_union_territory.capital"
+    ],
+    "title": [
+      "business.employment_tenure.title",
+      "royalty.system_title_relationship.title",
+      "royalty.chivalric_order_membership.title",
+      "fictional_universe.fictional_employment_tenure.title",
+      "book.editorial_tenure.title",
+      "law.judicial_tenure.title",
+      "government.legislative_committee_membership.title",
+      "organization.organization_committee_membership.title",
+      "religion.religious_leadership_jurisdiction.title",
+      "religion.religious_leadership_jurisdiction_appointment.title",
+      "boxing.boxing_title_tenure.title"
+    ],
+    "athlete": [
+      "sports.pro_sports_played.athlete",
+      "olympics.olympic_athlete_affiliation.athlete",
+      "olympics.demonstration_event_athlete_relationship.athlete"
+    ],
+    "athletic performances": [
+      "sports.sport_country.athletic_performances",
+      "sports.multi_event_tournament.athletic_performances"
+    ],
+    "from": [
+      "sports.sports_league_participation.from",
+      "soccer.football_league_participation.from",
+      "user.gmackenz.public_gmackenz_types.calendar_event_range_day.from"
+    ],
+    "ride": [
+      "amusement_parks.accident.ride",
+      "amusement_parks.disney_ride_ticket_membership.ride"
+    ],
+    "currency": [
+      "measurement_unit.dated_money_value.currency",
+      "measurement_unit.money_value.currency",
+      "measurement_unit.recurring_money_value.currency",
+      "measurement_unit.monetary_range.currency",
+      "location.imports_and_exports.currency",
+      "location.imports_exports_by_industry.currency",
+      "venture_capital.venture_investment.currency",
+      "book.newspaper_price.currency",
+      "business.currency_sub_unit.currency",
+      "base.lightweight.regional_dated_money_value.currency",
+      "business.market_size.currency",
+      "business.holding.currency"
+    ],
+    "region": [
+      "music.release.region",
+      "language.human_language.region",
+      "wine.wine.region",
+      "film.film_film_distributor_relationship.region",
+      "location.fr_department.region",
+      "food.cheese.region",
+      "distilled_spirits.distillery.region",
+      "fashion.clothing_size.region",
+      "business.market_share.region",
+      "business.market_size.region",
+      "base.lightweight.regional_dated_integer.region",
+      "base.lightweight.regional_dated_float.region",
+      "base.lightweight.regional_dated_money_value.region",
+      "astronomy.trans_neptunian_object.region"
+    ],
+    "athletics brand": [
+      "sports.school_sports_team.athletics_brand",
+      "education.educational_institution.athletics_brand"
+    ],
+    "group": [
+      "music.group_membership.group",
+      "biology.gene_group_membership.group",
+      "biology.gene_ontology_group_type.group",
+      "biology.gene_ontology_data_source.group",
+      "people.person.group",
+      "people.group_membership.group",
+      "comedy.comedy_group_membership.group"
+    ],
+    "degree": [
+      "education.education.degree",
+      "education.dissertation.degree",
+      "education.honorary_degree.degree"
+    ],
+    "ski area": [
+      "skiing.ski_lift.ski_area",
+      "skiing.ski_area_ownership.ski_area",
+      "skiing.ski_lodge.ski_area",
+      "skiing.ski_run.ski_area"
+    ],
+    "patents": [
+      "medicine.manufactured_drug_form.patents",
+      "law.patent_office.patents",
+      "law.invention.patents",
+      "law.us_patent_category.patents",
+      "law.international_patent_category.patents",
+      "law.us_patent_type.patents"
+    ],
+    "parent classifications": [
+      "biology.organism_classification.parent_classifications",
+      "biology.hybrid.parent_classifications"
+    ],
+    "opera": [
+      "opera.opera_character_voice.opera",
+      "opera.opera_production.opera",
+      "opera.opera_role.opera",
+      "opera.opera_designer_gig.opera",
+      "opera.opera_recording.opera",
+      "opera.opera_production_staff_gig.opera"
+    ],
+    "make": [
+      "automotive.model.make",
+      "automotive.company.make_s",
+      "automotive.generation.make",
+      "automotive.engine.make",
+      "automotive.privately_owned_vehicle.make",
+      "automotive.model_year.make"
+    ],
+    "spectral type": [
+      "astronomy.asteroid.spectral_type",
+      "astronomy.star.spectral_type"
+    ],
+    "genre": [
+      "film.film.genre",
+      "music.album.genre",
+      "music.artist.genre",
+      "book.book.genre",
+      "tv.tv_program.genre",
+      "broadcast.content.genre",
+      "theater.play.genre",
+      "book.magazine.genre",
+      "book.short_story.genre",
+      "opera.opera.genre",
+      "games.game.genre",
+      "comic_books.comic_book_series.genre",
+      "computer.file_format.genre",
+      "comic_strips.comic_strip.genre",
+      "music.recording.genre",
+      "comic_books.comic_book_story.genre"
+    ],
+    "stars": [
+      "astronomy.star_system.stars",
+      "astronomy.asterism.stars"
+    ],
+    "registry": [
+      "internet.top_level_domain.registry",
+      "biology.breed_registration.registry"
+    ],
+    "medal winners": [
+      "olympics.olympic_medal.medal_winners",
+      "sports.sport_medal.medal_winners",
+      "olympics.olympic_medal_demonstration.medal_winners"
+    ],
+    "team": [
+      "sports.sports_team_roster.team",
+      "soccer.football_player_stats.team",
+      "baseball.batting_statistics.team",
+      "sports.sports_league_participation.team",
+      "american_football.player_game_statistics.team",
+      "basketball.basketball_player_stats.team",
+      "american_football.game_receiving_statistics.team",
+      "american_football.player_receiving_statistics.team",
+      "sports.team_venue_relationship.team",
+      "american_football.player_rushing_statistics.team",
+      "american_football.game_rushing_statistics.team",
+      "soccer.football_team_manager.team",
+      "soccer.football_team_management_tenure.team",
+      "soccer.football_player_match_participation.team",
+      "sports.sports_team_season_record.team",
+      "baseball.baseball_team_stats.team",
+      "sports.sports_league_draft_pick.team",
+      "american_football.player_passing_statistics.team",
+      "american_football.game_passing_statistics.team",
+      "sports.sports_team_coach_tenure.team",
+      "basketball.basketball_historical_coach_position.team",
+      "soccer.football_league_participation.team",
+      "sports.sports_team_captain.team",
+      "sports.sports_team_captain_tenure.team",
+      "american_football.football_historical_coach_position.team",
+      "basketball.basketball_coach.team",
+      "sports.mascot.team",
+      "baseball.baseball_historical_managerial_position.team",
+      "sports.sports_award.team",
+      "soccer.football_team_manager_match_participation.team",
+      "cricket.cricket_coach_tenure.team",
+      "basketball.basketball_team_stats.team",
+      "sports.competitor_competition_relationship.team",
+      "american_football.football_game_score.team"
+    ],
+    "people with this title": [
+      "business.job_title.people_with_this_title",
+      "education.academic_post_title.people_with_this_title"
+    ],
+    "matches": [
+      "soccer.football_pitch.matches",
+      "sports.boxer.matches",
+      "soccer.football_team.matches",
+      "soccer.football_team_manager.matches",
+      "sports.boxing_weight_division.matches",
+      "soccer.football_league_season.matches",
+      "cricket.cricket_series_event.matches",
+      "cricket.cricket_tournament_event.matches"
+    ],
+    "sport": [
+      "sports.pro_sports_played.sport",
+      "sports.sports_team.sport",
+      "olympics.olympic_athlete_affiliation.sport",
+      "sports.sports_league.sport",
+      "sports.sports_official.sport",
+      "olympics.olympic_event.sport",
+      "sports.defunct_sports_team.sport",
+      "sports.sports_position.sport",
+      "sports.tournament_event.sport"
+    ],
+    "operated by": [
+      "travel.hotel.operated_by",
+      "spaceflight.rocket_launch_site.operated_by",
+      "finance.stock_exchange.operated_by"
+    ],
+    "predecessor": [
+      "automotive.model.predecessor",
+      "automotive.generation.predecessor",
+      "automotive.platform.predecessor"
+    ],
+    "card games": [
+      "games.playing_card_game_play_direction.card_games",
+      "games.playing_card_deck_type.card_games"
+    ],
+    "titles": [
+      "media_common.netflix_genre.titles",
+      "royalty.noble_person.titles",
+      "royalty.system_of_nobility.titles",
+      "sports.boxer.titles",
+      "boxing.boxing_sanctioning_body.titles"
+    ],
+    "highest grade taught": [
+      "education.school.highest_grade_taught",
+      "education.school_district.highest_grade_taught"
+    ],
+    "category": [
+      "astronomy.celestial_object.category",
+      "internet.website.category",
+      "award.award.category",
+      "award.category_ceremony_relationship.category",
+      "geography.geographical_feature.category",
+      "government.government_office_or_title.category",
+      "award.hall_of_fame_induction.category",
+      "organization.email_contact.category",
+      "business.consumer_product.category",
+      "engineering.engine.category",
+      "business.product_line.category",
+      "martial_arts.martial_art.category",
+      "interests.collection.category",
+      "zoos.zoo.category",
+      "meteorology.tropical_cyclone.category",
+      "royalty.order_of_chivalry.category",
+      "location.metropolitan_area.category"
+    ],
+    "owners": [
+      "visual_art.artwork.owners",
+      "boats.ship.owners",
+      "business.asset.owners",
+      "biology.animal_ownership.owners",
+      "biology.owned_animal.owners",
+      "rail.locomotive.owners"
+    ],
+    "features": [
+      "geography.geographical_feature_category.features",
+      "travel.accommodation.features"
+    ],
+    "episode": [
+      "tv.tv_guest_personal_appearance.episode",
+      "tv.tv_producer_episode_credit.episode",
+      "tv.tv_crew_gig.episode",
+      "tv.tv_episode_song_relationship.episode",
+      "radio.radio_episode_segment.episode"
+    ],
+    "league": [
+      "sports.sports_league_participation.league",
+      "sports.sports_team.league",
+      "sports.sports_league_season.league",
+      "soccer.football_league_participation.league",
+      "soccer.football_team.league",
+      "baseball.baseball_team.league",
+      "soccer.football_league_season.league",
+      "sports.sports_championship.league",
+      "american_football.football_conference.league",
+      "ice_hockey.hockey_conference.league",
+      "sports.sports_league_draft.league",
+      "baseball.baseball_division.league",
+      "basketball.basketball_conference.league"
+    ],
+    "place of publication": [
+      "book.book_edition.place_of_publication",
+      "book.place_of_publication_period.place_of_publication",
+      "book.magazine.place_of_publication",
+      "book.journal.place_of_publication",
+      "book.technical_report.place_of_publication"
+    ],
+    "opera production venue relationship": [
+      "opera.opera_production.opera_production_venue_relationship",
+      "opera.opera_house.opera_production_venue_relationship"
+    ],
+    "roster": [
+      "sports.sports_team.roster",
+      "cricket.cricket_roster_batting.roster",
+      "cricket.cricket_roster_bowling.roster",
+      "cricket.cricket_roster_extras.roster",
+      "cricket.team_inning_batting_stats.roster",
+      "cricket.cricket_roster_keeping.roster"
+    ],
+    "location": [
+      "people.place_lived.location",
+      "transportation.road_starting_point.location",
+      "location.cotermination.location",
+      "film.film_festival.location",
+      "sports.sports_team.location",
+      "internet.localized_uri.location",
+      "visual_art.artwork_location_relationship.location",
+      "broadcast.content.location",
+      "fictional_universe.event_in_fiction.location",
+      "celebrities.legal_entanglement.location",
+      "fictional_universe.fictional_object.location",
+      "medicine.medical_trial.location",
+      "broadcast.producer.location",
+      "boats.boat_disposition.location",
+      "cricket.cricket_match.location",
+      "olympics.olympic_torch_relay.location",
+      "chess.chess_game.location",
+      "automotive.manufacturing_plant.location",
+      "engineering.mains_power.location",
+      "zoos.zoo.location",
+      "amusement_parks.park.location",
+      "freebase.user_profile.location",
+      "spaceflight.rocket_launch_site.location"
+    ],
+    "examples": [
+      "architecture.architectural_style.examples",
+      "automotive.automotive_class.examples",
+      "biology.animal_breed.examples",
+      "automotive.body_style.examples",
+      "automotive.engine_type.examples",
+      "automotive.model_year.examples"
+    ],
+    "player": [
+      "sports.sports_team_roster.player",
+      "soccer.football_player_stats.player",
+      "baseball.batting_statistics.player",
+      "american_football.player_game_statistics.player",
+      "basketball.basketball_player_stats.player",
+      "baseball.lifetime_batting_statistics.player",
+      "american_football.game_receiving_statistics.player",
+      "american_football.player_receiving_statistics.player",
+      "american_football.player_rushing_statistics.player",
+      "american_football.game_rushing_statistics.player",
+      "soccer.football_player_match_participation.player",
+      "sports.sports_league_draft_pick.player",
+      "american_football.player_passing_statistics.player",
+      "american_football.game_passing_statistics.player",
+      "soccer.football_disciplinary_action.player",
+      "soccer.football_disciplinary_punishment.player",
+      "soccer.football_player_loan.player",
+      "chess.chess_game_participation.player",
+      "basketball.basketball_player_career_stats.player",
+      "soccer.football_player_transfer.player",
+      "cricket.cricket_roster_batting.player",
+      "cricket.cricket_player_debut.player",
+      "cricket.cricket_roster_keeping.player"
+    ],
+    "lowest grade taught": [
+      "education.school.lowest_grade_taught",
+      "education.school_district.lowest_grade_taught"
+    ],
+    "military combatant": [
+      "military.military_command.military_combatant",
+      "military.armed_force.military_combatant"
+    ],
+    "play": [
+      "theater.theater_role.play",
+      "theater.theater_production.play",
+      "theater.theater_designer_gig.play",
+      "theater.theater_production_staff_gig.play",
+      "theater.musical_soundtrack.play"
+    ],
+    "membership": [
+      "music.group_member.membership",
+      "biology.gene.membership",
+      "biology.gene_group_membership_evidence.membership"
+    ],
+    "inventor": [
+      "law.invention.inventor",
+      "law.us_patent.inventor"
+    ],
+    "higher rank": [
+      "biology.organism_classification_rank.higher_rank",
+      "royalty.noble_rank.higher_rank",
+      "royalty.precedence.higher_rank",
+      "royalty.chivalric_rank_precedence.higher_rank"
+    ],
+    "digital cameras": [
+      "digicams.camera_sensor_type.digital_cameras",
+      "digicams.camera_viewfinder_type.digital_cameras"
+    ],
+    "editor": [
+      "book.written_work.editor",
+      "book.editorial_tenure.editor",
+      "comic_books.comic_book_issue.editor"
+    ],
+    "administrative headquarters": [
+      "location.uk_council_area.administrative_headquarters",
+      "location.uk_district.administrative_headquarters",
+      "location.in_division.administrative_headquarters",
+      "location.uk_non_metropolitan_district.administrative_headquarters",
+      "location.uk_non_metropolitan_county.administrative_headquarters",
+      "location.uk_metropolitan_borough.administrative_headquarters",
+      "location.uk_principal_area.administrative_headquarters"
+    ],
+    "company": [
+      "business.employment_tenure.company",
+      "business.consumer_product.company",
+      "business.company_product_relationship.company",
+      "venture_capital.venture_investment.company",
+      "business.company_brand_relationship.company",
+      "business.company_name_change.company",
+      "business.competitive_space.company",
+      "business.competitive_space_mediator.company",
+      "business.company_product_line_relationship.company",
+      "automotive.manufacturing_plant.company",
+      "business.market_share.company"
+    ],
+    "color": [
+      "medicine.manufactured_drug_form.color",
+      "wine.wine.color",
+      "chess.chess_game_participation.color",
+      "fictional_universe.fictional_substance.color",
+      "architecture.light_color_range.color",
+      "automotive.upholstery.color",
+      "symbols.heraldic_mantling.color",
+      "symbols.heraldic_torse.color"
+    ],
+    "election": [
+      "government.election_campaign.election",
+      "government.election_poll.election"
+    ],
+    "railways": [
+      "rail.railway_operator.railways",
+      "rail.rail_gauge.railways",
+      "rail.rail_network.railways"
+    ],
+    "opposite gender equivalent": [
+      "royalty.noble_title.opposite_gender_equivalent",
+      "royalty.noble_rank.opposite_gender_equivalent",
+      "royalty.chivalric_title.opposite_gender_equivalent",
+      "royalty.chivalric_rank.opposite_gender_equivalent"
+    ],
+    "source": [
+      "measurement_unit.dated_integer.source",
+      "measurement_unit.dated_percentage.source",
+      "measurement_unit.dated_money_value.source",
+      "measurement_unit.dated_float.source",
+      "measurement_unit.dated_metric_ton.source",
+      "measurement_unit.adjusted_money_value.source",
+      "measurement_unit.dated_kgoe.source",
+      "measurement_unit.dated_kilowatt_hour.source",
+      "measurement_unit.dated_index_value.source",
+      "media_common.quotation.source",
+      "measurement_unit.dated_days.source",
+      "measurement_unit.dated_cubic_meters.source",
+      "measurement_unit.recurring_money_value.source",
+      "biology.plant_disease_triangle.source_s",
+      "base.lightweight.regional_dated_float.source",
+      "base.lightweight.regional_dated_money_value.source",
+      "base.lightweight.regional_dated_integer.source",
+      "food.bottled_water.source",
+      "measurement_unit.dated_ratio.source"
+    ],
+    "characters": [
+      "book.book.characters",
+      "fictional_universe.fictional_universe.characters",
+      "theater.play.characters",
+      "cvg.computer_videogame.characters",
+      "opera.opera.characters",
+      "book.short_story.characters",
+      "comic_books.comic_book_story.characters",
+      "comic_strips.comic_strip.characters",
+      "book.poem.characters"
+    ],
+    "performance role": [
+      "music.recording_contribution.performance_role",
+      "music.concert_performance.performance_role"
+    ],
+    "person": [
+      "people.place_lived.person",
+      "business.employment_tenure.person",
+      "film.personal_film_appearance.person",
+      "organization.leadership.person",
+      "tv.tv_regular_personal_appearance.person",
+      "tv.tv_guest_personal_appearance.person",
+      "education.academic_post.person",
+      "people.human_measurement.person",
+      "fashion.clothing_size.person",
+      "military.military_posting.person",
+      "martial_arts.martial_arts_certification.person",
+      "tv.tv_segment_personal_appearance.person",
+      "user.patrick.default_domain.warship_crew_tenure.person",
+      "tv.tv_segment_guest_appearance.person",
+      "freebase.user_profile.person"
+    ],
+    "railway": [
+      "rail.railway_operator_relationship.railway",
+      "rail.railway_type_relationship.railway",
+      "rail.railway_gauge_relationship.railway",
+      "rail.rolling_stock_tenure.railway"
+    ],
+    "staff member": [
+      "theater.theater_production_staff_gig.staff_member",
+      "opera.opera_production_staff_gig.staff_member"
+    ],
+    "demonstration competitions": [
+      "olympics.olympic_event.demonstration_competitions",
+      "olympics.olympic_games.demonstration_competitions"
+    ],
+    "software": [
+      "computer.software_compatibility.software",
+      "computer.software_developer.software"
+    ],
+    "subject": [
+      "government.election_poll_score.subject",
+      "government.election_poll.subject",
+      "conferences.conference_series.subject",
+      "law.legal_case.subject",
+      "visual_art.art_series.subject"
+    ],
+    "office": [
+      "government.election.office",
+      "government.electoral_college_elected_office.office",
+      "royalty.order_of_chivalry.office"
+    ],
+    "episodes": [
+      "tv.tv_program.episodes",
+      "tv.tv_series_season.episodes",
+      "tv.multipart_tv_episode.episodes",
+      "tv.tv_episode_segment.episodes",
+      "radio.radio_program.episodes",
+      "tv.tv_song.episodes",
+      "tv.tv_song_performer.episodes"
+    ],
+    "place": [
+      "location.hud_county_place.place",
+      "music.recording.place"
+    ],
+    "affiliates": [
+      "tv.tv_network.affiliates",
+      "broadcast.radio_network.affiliates"
+    ],
+    "parents": [
+      "people.person.parents",
+      "fictional_universe.fictional_character.parents",
+      "biology.organism.parents"
+    ],
+    "sub categories": [
+      "interests.collection_category.sub_categories",
+      "engineering.engine_category.sub_categories"
+    ],
+    "contents": [
+      "book.publication.contents",
+      "comic_books.comic_book_issue.contents"
+    ],
+    "designer": [
+      "theater.theater_designer_gig.designer",
+      "sports.golf_course.designer",
+      "games.game.designer",
+      "amusement_parks.ride.designer",
+      "boats.ship_class.designer",
+      "boats.ship.designer",
+      "fashion.designer_label_association.designer",
+      "automotive.generation.designer",
+      "opera.opera_designer_gig.designer",
+      "engineering.engine.designer"
+    ],
+    "season": [
+      "tv.tv_series_episode.season",
+      "baseball.batting_statistics.season",
+      "american_football.player_game_statistics.season",
+      "basketball.basketball_player_stats.season",
+      "american_football.player_receiving_statistics.season",
+      "american_football.player_rushing_statistics.season",
+      "sports.sports_team_season_record.season",
+      "baseball.baseball_team_stats.season",
+      "sports.sports_award.season",
+      "american_football.player_passing_statistics.season",
+      "sports.sports_championship_event.season",
+      "american_football.football_game.season",
+      "basketball.basketball_team_stats.season"
+    ],
+    "platforms": [
+      "cvg.musical_game_song_relationship.platforms",
+      "cvg.computer_videogame.platforms",
+      "automotive.generation.platforms",
+      "cvg.cvg_platform_family.platforms"
+    ],
+    "jurisdictions": [
+      "religion.religious_organization.jurisdictions",
+      "religion.religious_leadership_title.jurisdictions"
+    ],
+    "tests": [
+      "medicine.disease.tests",
+      "medicine.diagnostic_sign.tests"
+    ],
+    "contained by": [
+      "fictional_universe.fictional_setting.contained_by",
+      "computer.file_format.contained_by",
+      "astronomy.extraterrestrial_location.contained_by"
+    ],
+    "classification": [
+      "meteorology.cloud.classification",
+      "automotive.transmission.classification"
+    ],
+    "artists": [
+      "music.genre.artists",
+      "visual_art.visual_art_form.artists"
+    ],
+    "passing": [
+      "american_football.football_player.passing",
+      "american_football.football_game.passing"
+    ],
+    "compositions": [
+      "music.composer.compositions",
+      "music.compositional_form.compositions",
+      "music.album.compositions"
+    ],
+    "crewmember": [
+      "film.film_crew_gig.crewmember",
+      "tv.tv_crew_gig.crewmember",
+      "music.music_video_gig.crewmember"
+    ],
+    "awards": [
+      "sports.sports_league_season.awards",
+      "sports.sports_award_winner.awards",
+      "award.recurring_award_ceremony.awards"
+    ],
+    "composition": [
+      "film.film_song_relationship.composition",
+      "fictional_universe.fictional_object.composition",
+      "physics.hadron.composition"
+    ],
+    "presented by": [
+      "award.award.presented_by",
+      "royalty.chivalric_order_membership.presented_by"
+    ],
+    "writer": [
+      "tv.tv_series_episode.writer",
+      "tv.tv_program_writer_relationship.writer",
+      "tv.tv_episode_segment.writer"
+    ],
+    "transmission": [
+      "medicine.infectious_disease.transmission",
+      "automotive.trim_level.transmission"
+    ],
+    "coach": [
+      "sports.sports_team_coach_tenure.coach",
+      "basketball.basketball_historical_coach_position.coach",
+      "american_football.football_historical_coach_position.coach",
+      "cricket.cricket_team.coach",
+      "ice_hockey.hockey_team.coach",
+      "cricket.cricket_coach_tenure.coach",
+      "cricket.cricket_roster.coach"
+    ],
+    "country": [
+      "film.film.country",
+      "location.postal_code.country",
+      "location.mailing_address.country",
+      "olympics.olympic_athlete.country",
+      "olympics.olympic_athlete_affiliation.country",
+      "olympics.olympic_medal_honor.country",
+      "location.administrative_division.country",
+      "wine.wine.country",
+      "people.family.country",
+      "sports.competitor_competition_relationship.country",
+      "government.national_anthem_of_a_country.country",
+      "sports.competitor_country_relationship.country",
+      "sports.tournament_event_competitor.country",
+      "film.content_rating.country",
+      "cricket.cricket_team.country",
+      "medicine.drug_legal_status.country",
+      "law.constitution.country",
+      "food.beer.country",
+      "government.political_party.country",
+      "medicine.drug_pregnancy_category.country",
+      "olympics.olympic_demonstration_medal_honor.country"
+    ],
+    "competitions": [
+      "olympics.olympic_games.competitions",
+      "olympics.olympic_event.competitions",
+      "sports.multi_event_tournament.competitions",
+      "award.competitor.competitions",
+      "sports.tournament_event.competitions",
+      "cricket.cricket_administrative_body.competitions"
+    ],
+    "coat of arms": [
+      "symbols.armorial_grant.coat_of_arms",
+      "symbols.heraldic_supporter.coat_of_arms",
+      "symbols.heraldic_charge.coat_of_arms",
+      "symbols.heraldic_charge_color.coat_of_arms",
+      "symbols.heraldic_crest.coat_of_arms",
+      "symbols.heraldic_variation_of_the_field.coat_of_arms",
+      "symbols.heraldic_variation_of_the_field_color.coat_of_arms",
+      "symbols.heraldic_compartment.coat_of_arms",
+      "symbols.heraldic_ordinaire_color.coat_of_arms",
+      "symbols.heraldic_helm.coat_of_arms",
+      "symbols.heraldic_torse.coat_of_arms",
+      "symbols.heraldic_coronet.coat_of_arms",
+      "symbols.heraldic_ordinaire.coat_of_arms",
+      "symbols.heraldic_mantling.coat_of_arms",
+      "symbols.heraldic_brisure.coat_of_arms"
+    ],
+    "founders": [
+      "organization.organization.founders",
+      "royalty.order_of_chivalry.founders"
+    ],
+    "cover artist": [
+      "book.magazine_issue.cover_artist",
+      "book.book_edition.cover_artist"
+    ],
+    "album": [
+      "music.release.album",
+      "music.artist.album",
+      "music.recording_contribution.album"
+    ],
+    "games": [
+      "cvg.cvg_genre.games",
+      "american_football.football_player.games",
+      "cvg.game_character.games",
+      "cvg.musical_game_song.games",
+      "cvg.computer_game_subject.games",
+      "cvg.cvg_platform.games"
+    ],
+    "director": [
+      "tv.tv_series_episode.director",
+      "theater.theater_production.director",
+      "architecture.museum.director",
+      "tv.tv_episode_segment.director"
+    ],
+    "sports": [
+      "olympics.olympic_games.sports",
+      "sports.multi_event_tournament.sports",
+      "sports.competitor_country_relationship.sports"
+    ],
+    "versions": [
+      "music.single.versions",
+      "cvg.computer_videogame.versions",
+      "computer.software_license.versions"
+    ],
+    "part of series": [
+      "book.written_work.part_of_series",
+      "book.literary_series.part_of_series",
+      "comic_books.comic_book_issue.part_of_series",
+      "book.book_edition_series.part_of_series"
+    ],
+    "successor": [
+      "automotive.model.successor",
+      "automotive.generation.successor",
+      "automotive.platform.successor"
+    ],
+    "brand": [
+      "business.consumer_product.brand",
+      "business.company_brand_relationship.brand",
+      "business.product_line.brand",
+      "business.advertising_slogan.brand",
+      "business.brand_slogan.brand",
+      "business.competitive_space_mediator.brand",
+      "business.brand_colors.brand",
+      "music.guitar.brand",
+      "music.synthesizer.brand"
+    ],
+    "system": [
+      "royalty.system_title_relationship.system",
+      "protected_sites.protected_site.system",
+      "royalty.system_rank_relationship.system",
+      "royalty.system_order_relationship.system",
+      "royalty.precedence.system"
+    ],
+    "character": [
+      "film.performance.character",
+      "tv.tv_guest_role.character",
+      "tv.regular_tv_appearance.character",
+      "film.dubbing_performance.character",
+      "cvg.game_performance.character",
+      "opera.opera_character_voice.character",
+      "tv.tv_segment_performance.character"
+    ],
+    "more specific ingredient": [
+      "medicine.drug_ingredient.more_specific_ingredient",
+      "food.ingredient.more_specific_ingredient"
+    ],
+    "performers": [
+      "film.film_song_relationship.performers",
+      "tv.tv_episode_song_relationship.performers",
+      "tv.tv_segment_song_relationship.performers"
+    ],
+    "artworks": [
+      "visual_art.visual_artist.artworks",
+      "visual_art.visual_art_medium.artworks",
+      "visual_art.visual_art_form.artworks",
+      "visual_art.visual_art_support.artworks",
+      "visual_art.visual_art_genre.artworks",
+      "visual_art.art_series.artworks"
+    ],
+    "editions": [
+      "book.book.editions",
+      "visual_art.artwork.editions"
+    ],
+    "organization": [
+      "organization.organization_board_membership.organization",
+      "organization.leadership.organization",
+      "organization.organization_membership.organization",
+      "religion.religious_organization_leadership.organization",
+      "boxing.boxing_title.organization"
+    ],
+    "ceremony": [
+      "award.award_nomination.ceremony",
+      "award.award_honor.ceremony",
+      "award.category_ceremony_relationship.ceremony",
+      "award.award.ceremony"
+    ],
+    "producing company": [
+      "theater.theater_production.producing_company",
+      "opera.opera_production.producing_company"
+    ],
+    "construction cost": [
+      "architecture.structure.construction_cost",
+      "architecture.landscape_project.construction_cost"
+    ],
+    "seasons": [
+      "tv.tv_program.seasons",
+      "tv.regular_tv_appearance.seasons",
+      "tv.tv_regular_personal_appearance.seasons",
+      "sports.sports_league.seasons",
+      "soccer.football_league.seasons"
+    ],
+    "publication date": [
+      "book.magazine_issue.publication_date",
+      "book.newspaper_issue.publication_date"
+    ],
+    "material": [
+      "amusement_parks.roller_coaster.material",
+      "automotive.upholstery.material",
+      "engineering.material_composition.material"
+    ],
+    "owner": [
+      "visual_art.artwork_owner_relationship.owner",
+      "broadcast.radio_station.owner",
+      "internet.website.owner",
+      "business.brand.owner_s",
+      "architecture.ownership.owner",
+      "architecture.structure.owner",
+      "broadcast.tv_station.owner",
+      "internet.website_ownership.owner",
+      "book.newspaper.owner",
+      "business.shopping_center.owner",
+      "boats.ship_ownership.owner",
+      "fictional_universe.fictional_object.owner",
+      "business.asset_ownership.owner",
+      "sports.professional_sports_team.owner_s",
+      "skiing.ski_area.owner",
+      "skiing.ski_area_ownership.owner",
+      "rail.locomotive_ownership.owner",
+      "automotive.privately_owned_vehicle.owner",
+      "amusement_parks.park.owner",
+      "zoos.zoo.owner"
+    ],
+    "rushing": [
+      "american_football.football_player.rushing",
+      "american_football.football_game.rushing"
+    ],
+    "venues": [
+      "exhibitions.exhibition.venues",
+      "olympics.olympic_games.venues",
+      "sports.multi_event_tournament.venues",
+      "film.film_festival_event.venues"
+    ],
+    "plays produced": [
+      "theater.theater_producer.plays_produced",
+      "theater.theater_company.plays_produced"
+    ],
+    "publisher": [
+      "book.book_edition.publisher",
+      "cvg.game_version.publisher",
+      "cvg.computer_videogame.publisher",
+      "book.periodical.publisher",
+      "book.periodical_publisher_period.publisher",
+      "comic_books.comic_book_series.publisher",
+      "book.publishing_company.publisher",
+      "book.publisher_imprint_tenure.publisher",
+      "games.game.publisher"
+    ],
+    "works": [
+      "book.book_subject.works",
+      "book.short_non_fiction_variety.works"
+    ],
+    "ship class": [
+      "boats.ship.ship_class",
+      "boats.ship_type.ship_class"
+    ],
+    "target of exchange": [
+      "finance.exchange_rate.target_of_exchange",
+      "finance.currency.target_of_exchange"
+    ],
+    "industry": [
+      "business.business_operation.industry",
+      "location.imports_exports_by_industry.industry",
+      "business.trade_union.industry"
+    ],
+    "rides": [
+      "amusement_parks.park.rides",
+      "amusement_parks.ride_type.rides",
+      "amusement_parks.ride_manufacturer.rides",
+      "amusement_parks.ride_designer.rides",
+      "amusement_parks.ride_theme.rides",
+      "amusement_parks.amusement_park_area.rides",
+      "amusement_parks.disney_ride_ticket.rides"
+    ],
+    "division": [
+      "basketball.basketball_team.division",
+      "american_football.football_team.division",
+      "ice_hockey.hockey_team.division",
+      "baseball.baseball_team.division"
+    ],
+    "to": [
+      "sports.sports_league_participation.to",
+      "soccer.football_league_participation.to",
+      "user.gmackenz.public_gmackenz_types.calendar_event_range_day.to"
+    ],
+    "order": [
+      "royalty.chivalric_order_membership.order",
+      "royalty.chivalric_rank.order",
+      "royalty.chivalric_order_position_tenure.order",
+      "royalty.system_order_relationship.order",
+      "symbols.coat_of_arms.order",
+      "royalty.chivalric_office.order"
+    ],
+    "subjects": [
+      "book.written_work.subjects",
+      "media_common.quotation.subjects",
+      "film.film.subjects",
+      "book.periodical.subjects",
+      "exhibitions.exhibition.subjects",
+      "tv.tv_series_episode.subjects",
+      "cvg.computer_videogame.subjects",
+      "music.composition.subjects",
+      "tv.tv_program.subjects",
+      "radio.radio_program.subjects",
+      "radio.radio_program_episode.subjects",
+      "tv.tv_episode_segment.subjects",
+      "radio.radio_episode_segment.subjects",
+      "common.topic.subjects"
+    ],
+    "restaurants": [
+      "dining.chef.restaurants",
+      "skiing.ski_lodge.restaurants"
+    ],
+    "cameras": [
+      "digicams.camera_iso.cameras",
+      "digicams.digital_camera_manufacturer.cameras",
+      "digicams.camera_format.cameras",
+      "digicams.camera_compressed_format.cameras",
+      "digicams.camera_uncompressed_format.cameras",
+      "digicams.camera_image_ratio.cameras",
+      "digicams.camera_color_filter_array_type.cameras",
+      "digicams.camera_sensor_manufacturer.cameras"
+    ],
+    "players": [
+      "sports.sports_position.players",
+      "soccer.football_position.players",
+      "baseball.baseball_position.players",
+      "basketball.basketball_position.players",
+      "ice_hockey.hockey_position.players",
+      "soccer.football_match.players",
+      "chess.chess_game.players"
+    ],
+    "created by": [
+      "comic_books.comic_book_series.created_by",
+      "comic_books.comic_book_character.created_by",
+      "fictional_universe.fictional_universe.created_by",
+      "fictional_universe.fictional_object.created_by",
+      "language.conlang.created_by"
+    ],
+    "chromosome": [
+      "biology.gene.chromosome",
+      "biology.genomic_locus.chromosome",
+      "biology.cytogenetic_band.chromosome",
+      "biology.genome.chromosome"
+    ],
+    "sex": [
+      "biology.organism.sex",
+      "education.gender_enrollment.sex"
+    ],
+    "flight origin": [
+      "aviation.airliner_accident.flight_origin",
+      "aviation.aviation_incident_aircraft_relationship.flight_origin"
+    ],
+    "domains": [
+      "internet.top_level_domain_type.domains",
+      "internet.top_level_domain_status.domains",
+      "internet.top_level_domain_sponsor.domains",
+      "internet.top_level_domain_registry.domains"
+    ],
+    "noble rank": [
+      "royalty.noble_title.noble_rank",
+      "royalty.noble_rank_gender_equivalence.noble_rank",
+      "symbols.heraldic_coronet.noble_rank"
+    ],
+    "conferences": [
+      "conferences.conference_sponsor.conferences",
+      "conferences.conference_venue.conferences"
+    ],
+    "subcategory of": [
+      "geography.geographical_feature_category.subcategory_of",
+      "astronomy.celestial_object_category.subcategory_of"
+    ],
+    "medal": [
+      "olympics.olympic_medal_honor.medal",
+      "sports.competitor_competition_relationship.medal",
+      "olympics.olympic_demonstration_medal_honor.medal"
+    ],
+    "constitution": [
+      "law.constitutional_amendment.constitution",
+      "law.constitutional_convention.constitution"
+    ],
+    "members": [
+      "government.governmental_body.members",
+      "people.family.members",
+      "government.legislative_session.members",
+      "organization.membership_organization.members",
+      "fictional_universe.fictional_organization.members",
+      "organization.organization_partnership.members",
+      "organization.organization_committee.members",
+      "government.legislative_committee.members",
+      "comedy.comedy_group.members",
+      "cricket.cricket_umpire_panel.members",
+      "cricket.cricket_administrative_body.members"
+    ],
+    "instances": [
+      "time.recurring_event.instances",
+      "computer.computer_peripheral_class.instances"
+    ],
+    "drinking establishments": [
+      "travel.hotel.drinking_establishments",
+      "food.licensee.drinking_establishments"
+    ],
+    "event": [
+      "olympics.olympic_medal_honor.event",
+      "olympics.olympic_event_competition.event",
+      "tennis.tennis_match.event",
+      "sports.tournament_event_competition.event",
+      "event.speech_or_presentation.event",
+      "olympics.olympic_demonstration_competition.event",
+      "olympics.olympic_demonstration_medal_honor.event"
+    ],
+    "programs": [
+      "tv.tv_genre.programs",
+      "tv.tv_network.programs"
+    ],
+    "legislature": [
+      "government.legislative_session.legislature",
+      "government.legislative_election_results.legislature",
+      "government.legislative_committee.legislature"
+    ],
+    "contributor": [
+      "music.track_contribution.contributor",
+      "music.recording_contribution.contributor",
+      "music.album.contributor"
+    ],
+    "wines": [
+      "wine.grape_variety.wines",
+      "wine.wine_color.wines",
+      "wine.wine_producer.wines",
+      "wine.wine_type.wines",
+      "wine.wine_region.wines",
+      "wine.wine_sub_region.wines",
+      "wine.appellation.wines",
+      "wine.fruit_source.wines",
+      "wine.vineyard.wines",
+      "food.wine_style.wines"
+    ],
+    "production role": [
+      "theater.theater_production_staff_gig.production_role",
+      "opera.opera_production_staff_gig.production_role"
+    ],
+    "gender": [
+      "people.person.gender",
+      "fictional_universe.fictional_character.gender",
+      "royalty.noble_rank.gender",
+      "royalty.chivalric_rank.gender",
+      "medicine.survival_rate.gender",
+      "sports.sports_team.gender"
+    ],
+    "constellations": [
+      "astronomy.constellation_bordering_relationship.constellations",
+      "astronomy.asterism.constellations"
+    ],
+    "children": [
+      "people.person.children",
+      "fictional_universe.fictional_character.children",
+      "biology.organism.children"
+    ],
+    "address": [
+      "business.business_location.address",
+      "library.public_library.address",
+      "business.shopping_center.address",
+      "medicine.hospital.address",
+      "architecture.museum.address",
+      "award.hall_of_fame.address",
+      "architecture.landscape_project.address"
+    ],
+    "products": [
+      "business.brand.products",
+      "business.consumer_company.products",
+      "business.product_line.products",
+      "business.product_category.products",
+      "business.product_theme.products",
+      "computer.computer_peripheral_class.products"
+    ],
+    "format": [
+      "music.release.format",
+      "broadcast.radio_station.format",
+      "book.periodical.format",
+      "book.periodical_format_period.format",
+      "digicams.digital_camera.format"
+    ],
+    "sponsoring organization": [
+      "film.film_festival.sponsoring_organization",
+      "conferences.conference_series.sponsoring_organization"
+    ],
+    "champion": [
+      "sports.sports_championship_event.champion",
+      "boxing.boxing_title_tenure.champion"
+    ],
+    "artwork": [
+      "visual_art.artwork_owner_relationship.artwork",
+      "visual_art.artwork_location_relationship.artwork"
+    ],
+    "competitors": [
+      "award.competition.competitors",
+      "sports.competitor_competition_relationship.competitors",
+      "sports.tournament_event_competition.competitors",
+      "sports.multi_event_tournament.competitors",
+      "olympics.olympic_demonstration_competition.competitors"
+    ],
+    "locations": [
+      "time.event.locations",
+      "organization.organization.locations",
+      "visual_art.artwork.locations",
+      "astronomy.celestial_object.locations",
+      "fictional_universe.fictional_universe.locations",
+      "film.film.locations",
+      "military.military_conflict.locations"
+    ],
+    "parent class": [
+      "rail.locomotive_class.parent_class",
+      "physics.particle_family.parent_class"
+    ],
+    "combatants": [
+      "military.military_combatant_group.combatants",
+      "military.military_conflict.combatants"
+    ],
+    "network": [
+      "tv.tv_network_duration.network",
+      "broadcast.tv_affiliation_duration.network",
+      "broadcast.tv_channel.network",
+      "broadcast.radio_affiliation_duration.network"
+    ],
+    "orbit type": [
+      "astronomy.orbital_relationship.orbit_type",
+      "spaceflight.satellite.orbit_type",
+      "spaceflight.satellite_orbit_synchronous.orbit_type"
+    ],
+    "school or movement": [
+      "book.written_work.school_or_movement",
+      "book.author.school_or_movement"
+    ],
+    "leaders": [
+      "organization.role.leaders",
+      "religion.religious_leadership_title.leaders",
+      "religion.religious_organization.leaders"
+    ],
+    "designers": [
+      "theater.theater_production.designers",
+      "theater.theater_designer_role.designers",
+      "cvg.computer_videogame.designers",
+      "fashion.fashion_label.designers",
+      "opera.opera_production.designers",
+      "opera.opera_designer_role.designers"
+    ],
+    "rating system": [
+      "cvg.computer_game_rating.rating_system",
+      "cvg.computer_game_content_descriptor.rating_system"
+    ],
+    "spouse": [
+      "people.person.spouse_s",
+      "people.marriage.spouse"
+    ],
+    "parties": [
+      "law.legal_case_party_relationship.parties",
+      "law.legal_case.parties",
+      "law.legal_party_role.parties"
+    ],
+    "contains": [
+      "location.location.contains",
+      "astronomy.constellation.contains",
+      "fictional_universe.fictional_setting.contains",
+      "astronomy.extraterrestrial_location.contains"
+    ],
+    "roller coasters": [
+      "amusement_parks.roller_coaster_material.roller_coasters",
+      "amusement_parks.roller_coaster_propulsion_system.roller_coasters",
+      "amusement_parks.roller_coaster_train_configuration.roller_coasters"
+    ],
+    "ticket": [
+      "amusement_parks.disney_ride_ticket_membership.ticket",
+      "amusement_parks.disney_ride.ticket"
+    ],
+    "disease": [
+      "biology.plant_disease_host.disease_s",
+      "medicine.vector_of_disease.disease",
+      "medicine.diagnostic_test_signs.disease"
+    ],
+    "cheeses": [
+      "food.cheese_milk_source.cheeses",
+      "food.cheese_texture.cheeses"
+    ],
+    "components": [
+      "music.multipart_release.components",
+      "distilled_spirits.blended_spirit.components"
+    ],
+    "rating": [
+      "film.film.rating",
+      "cvg.computer_game_evaluation.rating",
+      "cvg.game_version.rating",
+      "skiing.ski_run.rating",
+      "tv.tv_series_season.rating"
+    ],
+    "tropical cyclones": [
+      "meteorology.tropical_cyclone_season.tropical_cyclones",
+      "meteorology.tropical_cyclone_category.tropical_cyclones"
+    ],
+    "series": [
+      "tv.tv_series_episode.series",
+      "tv.regular_tv_appearance.series",
+      "tv.tv_series_season.series",
+      "conferences.conference.series",
+      "travel.guidebook.series",
+      "cricket.cricket_series_event.series"
+    ],
+    "cuisine": [
+      "dining.restaurant.cuisine",
+      "food.dish.cuisine",
+      "food.ingredient.cuisine"
+    ],
+    "aircraft type": [
+      "aviation.aircraft_model.aircraft_type",
+      "aviation.airliner_accident.aircraft_type"
+    ],
+    "build": [
+      "biology.genomic_locus.build",
+      "biology.genome.build",
+      "biology.genome_curator.build"
+    ],
+    "fermentation base": [
+      "distilled_spirits.distilled_spirit.fermentation_base",
+      "distilled_spirits.distilled_spirit_type.fermentation_base"
+    ],
+    "station": [
+      "broadcast.tv_affiliation_duration.station",
+      "broadcast.radio_affiliation_duration.station"
+    ],
+    "fraternities and sororities": [
+      "education.university.fraternities_and_sororities",
+      "education.fraternity_sorority_type.fraternities_and_sororities"
+    ],
+    "player statistics": [
+      "soccer.football_team.player_statistics",
+      "basketball.basketball_player.player_statistics"
+    ],
+    "diseases": [
+      "medicine.risk_factor.diseases",
+      "medicine.disease_cause.diseases",
+      "medicine.type_of_infectious_agent.diseases",
+      "medicine.medical_trial.diseases"
+    ],
+    "content": [
+      "broadcast.artist.content",
+      "broadcast.genre.content",
+      "broadcast.broadcast.content",
+      "broadcast.advisory.content"
+    ],
+    "country of origin": [
+      "tv.tv_program.country_of_origin",
+      "theater.play.country_of_origin",
+      "food.cheese.country_of_origin",
+      "spaceflight.rocket.country_of_origin",
+      "royalty.system_of_nobility.country_of_origin"
+    ],
+    "award": [
+      "award.award_nomination.award",
+      "award.award_honor.award",
+      "sports.sports_award.award",
+      "award.long_list_nomination.award",
+      "award.award_announcement.award",
+      "award.award_judging_term.award",
+      "award.award_nomination_announcement.award",
+      "award.award_achievement_level.award"
+    ],
+    "olympic games contested": [
+      "olympics.olympic_event_competition.olympic_games_contested",
+      "olympics.olympic_event.olympic_games_contested",
+      "olympics.olympic_sport.olympic_games_contested"
+    ],
+    "month": [
+      "travel.travel_destination_monthly_climate.month",
+      "time.day_of_year.month"
+    ],
+    "appointed by": [
+      "government.government_position_held.appointed_by",
+      "people.appointment.appointed_by"
+    ],
+    "offices": [
+      "government.government_office_category.offices",
+      "government.electoral_college.offices"
+    ],
+    "child": [
+      "organization.organization_relationship.child",
+      "organization.organization.child"
+    ],
+    "producer": [
+      "music.recording.producer",
+      "tv.tv_producer_term.producer",
+      "theater.theater_production.producer",
+      "tv.tv_producer_episode_credit.producer",
+      "broadcast.content.producer",
+      "business.product_line.producer_s",
+      "opera.opera_production.producer",
+      "distilled_spirits.infused_spirit.producer"
+    ],
+    "space": [
+      "business.competitive_space_mediator.space",
+      "business.market_share.space"
+    ],
+    "plant disease triangle": [
+      "biology.plant_disease.plant_disease_triangle",
+      "biology.plant_disease_cause.plant_disease_triangle",
+      "biology.plant_disease_conditions.plant_disease_triangle"
+    ],
+    "institution": [
+      "education.education.institution",
+      "education.academic_post.institution",
+      "education.department.institution",
+      "education.athletics_brand.institution",
+      "education.honorary_degree.institution",
+      "education.dissertation.institution",
+      "education.gender_enrollment.institution",
+      "book.technical_report.institution"
+    ],
+    "trials": [
+      "medicine.medical_trial_design.trials",
+      "medicine.medical_treatment.trials",
+      "medicine.disease.trials"
+    ],
+    "sponsorship": [
+      "business.sponsor.sponsorship",
+      "business.sponsored_recipient.sponsorship"
+    ],
+    "frequency": [
+      "book.periodical_frequency.frequency",
+      "measurement_unit.recurring_money_value.frequency"
+    ],
+    "winners": [
+      "award.award_category.winners",
+      "award.award_achievement_level.winners",
+      "sports.sports_award_type.winners"
+    ],
+    "judge": [
+      "law.judicial_tenure.judge",
+      "award.award_judging_term.judge"
+    ],
+    "agency": [
+      "government.government.agency",
+      "metropolitan_transit.transit_system.agency"
+    ],
+    "member": [
+      "music.group_membership.member",
+      "music.musical_group.member",
+      "organization.organization_board_membership.member",
+      "organization.organization_membership.member",
+      "organization.organization_committee_membership.member",
+      "people.group_membership.member",
+      "government.legislative_committee_membership.member",
+      "people.group.member",
+      "comedy.comedy_group_membership.member"
+    ],
+    "departments": [
+      "education.university.departments",
+      "location.fr_region.departments"
+    ],
+    "author": [
+      "book.written_work.author",
+      "media_common.quotation.author",
+      "book.literary_series.author_s",
+      "food.recipe.author"
+    ],
+    "tournament": [
+      "sports.tournament_event_competition.tournament",
+      "tennis.tennis_tournament_championship.tournament",
+      "sports.competitor_competition_relationship.tournament",
+      "sports.competitor_country_relationship.tournament",
+      "cricket.cricket_tournament_event.tournament"
+    ],
+    "lift type": [
+      "skiing.ski_lift.lift_type",
+      "skiing.lift_tenure.lift_type"
+    ],
+    "operas produced": [
+      "opera.opera_company.operas_produced",
+      "opera.opera_producer.operas_produced"
+    ],
+    "coaches": [
+      "sports.sports_team.coaches",
+      "sports.coaching_position.coaches",
+      "cricket.cricket_team.coaches"
+    ],
+    "crew": [
+      "music.music_video.crew",
+      "user.patrick.default_domain.warship_v1_1.crew"
+    ],
+    "sexual orientation": [
+      "celebrities.sexual_orientation_phase.sexual_orientation",
+      "celebrities.celebrity.sexual_orientation"
+    ],
+    "fuel": [
+      "spaceflight.bipropellant_rocket_engine.fuel",
+      "spaceflight.rocket_stage.fuel",
+      "boats.engine.fuel",
+      "automotive.us_fuel_economy.fuel"
+    ],
+    "rank": [
+      "biology.organism_classification.rank",
+      "military.military_service.rank",
+      "fictional_universe.fictional_character.rank",
+      "royalty.system_rank_relationship.rank",
+      "royalty.chivalric_rank_precedence.rank",
+      "royalty.chivalric_title.rank",
+      "biology.organism_classification_placement.rank",
+      "royalty.chivalric_rank_gender_equivalence.rank"
+    ],
+    "parent company": [
+      "business.business_location.parent_company",
+      "automotive.make.parent_company",
+      "organization.organization_spin_off.parent_company"
+    ],
+    "place of birth": [
+      "people.person.place_of_birth",
+      "fictional_universe.fictional_character.place_of_birth",
+      "biology.organism.place_of_birth"
+    ],
+    "star system": [
+      "astronomy.star_system_body.star_system",
+      "astronomy.star.star_system",
+      "astronomy.dwarf_planet.star_system",
+      "astronomy.plutoid.star_system"
+    ],
+    "breeds": [
+      "biology.breed_temperament.breeds",
+      "biology.breed_coloring.breeds",
+      "biology.domesticated_animal.breeds"
+    ],
+    "languages": [
+      "tv.tv_program.languages",
+      "people.person.languages",
+      "language.language_family.languages",
+      "language.language_writing_system.languages",
+      "computer.programming_language_paradigm.languages",
+      "fictional_universe.fictional_setting.languages",
+      "fictional_universe.fictional_universe.languages"
+    ],
+    "used in": [
+      "royalty.noble_title.used_in",
+      "royalty.noble_rank.used_in",
+      "automotive.engine_type.used_in",
+      "royalty.order_of_chivalry.used_in",
+      "automotive.engine.used_in",
+      "automotive.transmission.used_in"
+    ],
+    "route of administration": [
+      "medicine.routed_drug.route_of_administration",
+      "medicine.drug.route_of_administration"
+    ],
+    "developer": [
+      "cvg.game_version.developer",
+      "cvg.computer_videogame.developer",
+      "computer.software.developer",
+      "computer.operating_system.developer",
+      "cvg.computer_game_engine.developer"
+    ],
+    "winner": [
+      "tennis.tennis_tournament_championship.winner",
+      "award.competition.winner",
+      "government.election.winner",
+      "tennis.tennis_match.winner",
+      "cricket.cricket_match.winner"
+    ],
+    "production staff": [
+      "theater.theater_production.production_staff",
+      "opera.opera_production_staff_role.production_staff",
+      "opera.opera_production.production_staff"
+    ],
+    "ski lifts": [
+      "skiing.lift_type.ski_lifts",
+      "skiing.ski_lift_manufacturer.ski_lifts"
+    ],
+    "specialization of": [
+      "people.profession.specialization_of",
+      "base.lightweight.profession.specialization_of",
+      "fashion.garment.specialization_of"
+    ],
+    "lower classifications": [
+      "biology.organism_classification.lower_classifications",
+      "chemistry.chemical_classification.lower_classifications"
+    ],
+    "segment": [
+      "tv.tv_segment_performance.segment",
+      "tv.tv_segment_personal_appearance.segment",
+      "tv.tv_segment_song_relationship.segment",
+      "tv.tv_segment_guest_appearance.segment"
+    ],
+    "courthouse": [
+      "law.court_courthouse_relationship.courthouse",
+      "law.court.courthouse"
+    ],
+    "constellation": [
+      "astronomy.star.constellation",
+      "astronomy.galaxy.constellation",
+      "base.exoplanetology.exoplanet.constellation",
+      "astronomy.star_system.constellation"
+    ],
+    "engine type": [
+      "aviation.aircraft_model.engine_type",
+      "automotive.engine.engine_type",
+      "boats.ship_powerplant.engine_type"
+    ],
+    "choreographer": [
+      "theater.theater_production.choreographer",
+      "music.music_video.choreographer"
+    ],
+    "actor": [
+      "film.performance.actor",
+      "tv.tv_guest_role.actor",
+      "tv.regular_tv_appearance.actor",
+      "theater.theater_role.actor",
+      "film.dubbing_performance.actor",
+      "tv.tv_segment_performance.actor"
+    ],
+    "language": [
+      "film.film.language",
+      "music.composition.language",
+      "book.periodical.language",
+      "film.dubbing_performance.language",
+      "book.translation.language",
+      "broadcast.content.language",
+      "opera.opera.language",
+      "internet.blog.language",
+      "book.book_edition.language",
+      "language.language_dialect.language",
+      "broadcast.tv_channel.language",
+      "language.language_regulator.language"
+    ],
+    "lower rank": [
+      "biology.organism_classification_rank.lower_rank",
+      "royalty.precedence.lower_rank",
+      "royalty.noble_rank.lower_rank",
+      "royalty.chivalric_rank_precedence.lower_rank"
+    ],
+    "place of origin": [
+      "military.military_unit.place_of_origin",
+      "biology.animal_breed.place_of_origin",
+      "food.wine_style.place_of_origin"
+    ],
+    "used by": [
+      "symbols.flag.used_by",
+      "rail.locomotive_class.used_by",
+      "rail.steam_locomotive_fuel_type.used_by"
+    ],
+    "msrp": [
+      "business.consumer_product.msrp",
+      "automotive.trim_level.msrp"
+    ],
+    "theater production venue relationship": [
+      "theater.theater_production.theater_production_venue_relationship",
+      "theater.theater.theater_production_venue_relationship"
+    ],
+    "airline": [
+      "aviation.airline_airport_presence.airline",
+      "aviation.icao_airline_designator.airline",
+      "aviation.iata_airline_designator.airline"
+    ],
+    "accidents": [
+      "aviation.aircraft_model.accidents",
+      "aviation.airline.accidents",
+      "amusement_parks.ride.accidents"
+    ],
+    "performances": [
+      "cvg.computer_game_performance_type.performances",
+      "music.music_video.performances",
+      "tv.tv_episode_segment.performances",
+      "event.presented_work.performances",
+      "music.concert.performances",
+      "music.concert_performance_role.performances"
+    ],
+    "source of exchange": [
+      "finance.exchange_rate.source_of_exchange",
+      "finance.currency.source_of_exchange"
+    ],
+    "partially contains": [
+      "location.partial_containment_relationship.partially_contains",
+      "location.location.partially_contains"
+    ],
+    "gdp nominal per capita": [
+      "location.statistical_region.gdp_nominal_per_capita",
+      "location.country.gdp_nominal_per_capita"
+    ],
+    "design role": [
+      "theater.theater_designer_gig.design_role",
+      "opera.opera_designer_gig.design_role"
+    ],
+    "survived disasters": [
+      "event.disaster_survivor.survived_disasters",
+      "event.disaster_affected_structure.survived_disasters"
+    ],
+    "specialization": [
+      "education.education.specialization",
+      "base.lightweight.profession.specialization"
+    ],
+    "rocket engines": [
+      "spaceflight.rocket_engine_oxidizer.rocket_engines",
+      "spaceflight.rocket_engine_designer.rocket_engines",
+      "spaceflight.rocket_engine_fuel.rocket_engines",
+      "spaceflight.rocket_engine_manufacturer.rocket_engines",
+      "spaceflight.rocket_engine_cycle.rocket_engines",
+      "spaceflight.rocket_engine_status.rocket_engines"
+    ],
+    "more general ingredient": [
+      "medicine.drug_ingredient.more_general_ingredient",
+      "food.ingredient.more_general_ingredient"
+    ],
+    "releases": [
+      "music.recording.releases",
+      "music.album.releases",
+      "music.record_label.releases"
+    ],
+    "jurisdiction": [
+      "government.government_agency.jurisdiction",
+      "religion.religious_jurisdiction_class.jurisdiction",
+      "government.governmental_body.jurisdiction",
+      "government.government_office_or_title.jurisdiction",
+      "religion.religious_organization_leadership.jurisdiction",
+      "law.court.jurisdiction",
+      "religion.religious_leadership_jurisdiction_appointment.jurisdiction",
+      "film.content_rating_system.jurisdiction",
+      "tv.tv_rating_system.jurisdiction",
+      "cricket.cricket_administrative_body.jurisdiction"
+    ],
+    "dubbing performances": [
+      "film.actor.dubbing_performances",
+      "film.film.dubbing_performances"
+    ],
+    "administrative center": [
+      "location.ru_oblast.administrative_center",
+      "location.ru_raion.administrative_center",
+      "location.ru_autonomous_okrug.administrative_center",
+      "location.ru_krai.administrative_center"
+    ],
+    "family": [
+      "people.family_member.family",
+      "music.instrument.family",
+      "physics.particle.family"
+    ],
+    "education": [
+      "people.person.education",
+      "fictional_universe.fictional_character.education"
+    ],
+    "battery sizes": [
+      "engineering.battery_shape_format.battery_sizes",
+      "engineering.battery_cell_type.battery_sizes"
+    ],
+    "geolocation": [
+      "location.location.geolocation",
+      "astronomy.extraterrestrial_location.geolocation",
+      "amusement_parks.park.geolocation",
+      "zoos.zoo.geolocation",
+      "amusement_parks.ride.geolocation"
+    ],
+    "ingredients": [
+      "food.dish.ingredients",
+      "food.recipe.ingredients",
+      "dining.cuisine.ingredients",
+      "business.product_with_ingredients.ingredients",
+      "business.product_ingredient.ingredients"
+    ],
+    "wine styles": [
+      "wine.grape_variety.wine_styles",
+      "wine.wine_region.wine_styles",
+      "wine.wine_type.wine_styles"
+    ],
+    "variants": [
+      "aviation.aircraft_model.variants",
+      "computer.computer_processor.variants",
+      "engineering.engine.variants"
+    ],
+    "religion": [
+      "people.person.religion",
+      "religion.place_of_worship.religion",
+      "location.religion_percentage.religion",
+      "religion.place_of_worship_historical_use.religion",
+      "religion.religious_leadership_role.religion",
+      "religion.type_of_place_of_worship.religion",
+      "religion.monastery.religion",
+      "religion.adherents.religion"
+    ],
+    "variation of the field": [
+      "symbols.coat_of_arms.variation_of_the_field",
+      "symbols.heraldic_variation_of_the_field_color.variation_of_the_field"
+    ],
+    "parent genre": [
+      "music.genre.parent_genre",
+      "media_common.media_genre.parent_genre",
+      "computer.software_genre.parent_genre"
+    ],
+    "venue": [
+      "sports.team_venue_relationship.venue",
+      "sports.sports_team.venue",
+      "exhibitions.exhibition_run.venue",
+      "olympics.olympic_event_competition.venue",
+      "music.concert.venue",
+      "conferences.conference.venue",
+      "olympics.olympic_demonstration_competition.venue"
+    ],
+    "manager": [
+      "soccer.football_team_management_tenure.manager",
+      "soccer.football_team.manager",
+      "baseball.baseball_historical_managerial_position.manager",
+      "soccer.football_team_manager_match_participation.manager"
+    ],
+    "mountains": [
+      "geography.mountain_range.mountains",
+      "geography.mountain_listing.mountains"
+    ],
+    "soundtrack": [
+      "film.film.soundtrack",
+      "tv.tv_program.soundtrack"
+    ],
+    "marketed formulations": [
+      "medicine.routed_drug.marketed_formulations",
+      "medicine.drug.marketed_formulations"
+    ],
+    "partially contained by": [
+      "location.location.partially_contained_by",
+      "location.partial_containment_relationship.partially_contained_by"
+    ],
+    "periodical": [
+      "book.periodical_publisher_period.periodical",
+      "book.periodical_format_period.periodical",
+      "book.editorial_tenure.periodical"
+    ],
+    "projects": [
+      "projects.project_participant.projects",
+      "projects.project_role.projects",
+      "projects.project_focus.projects",
+      "architecture.architecture_firm.projects",
+      "architecture.architectural_contractor.projects",
+      "architecture.engineer.projects",
+      "architecture.engineering_firm.projects"
+    ],
+    "subcategories": [
+      "geography.geographical_feature_category.subcategories",
+      "astronomy.celestial_object_category.subcategories",
+      "protected_sites.site_listing_category.subcategories"
+    ],
+    "peripherals": [
+      "computer.computer.peripherals",
+      "computer.computer_emulator.peripherals"
+    ],
+    "tv program": [
+      "tv.tv_program_writer_relationship.tv_program",
+      "tv.tv_soundtrack.tv_program",
+      "tv.multipart_tv_episode.tv_program"
+    ],
+    "colors": [
+      "education.educational_institution.colors",
+      "sports.sports_team.colors",
+      "education.fraternity_sorority.colors",
+      "business.brand_colors.colors",
+      "business.brand.colors",
+      "comic_books.comic_book_story.colors"
+    ],
+    "hybrids": [
+      "biology.hybrid_parent_classification.hybrids",
+      "biology.hybrid_parent_gender.hybrids"
+    ],
+    "music video": [
+      "music.music_video_performance.music_video",
+      "music.music_video_gig.music_video"
+    ],
+    "member of": [
+      "organization.organization_member.member_of",
+      "sports.sports_team.member_of"
+    ],
+    "cities": [
+      "geography.river.cities",
+      "geography.lake.cities"
+    ],
+    "engineer": [
+      "music.recording.engineer",
+      "architecture.structure.engineer"
+    ],
+    "locomotive class": [
+      "rail.locomotive.locomotive_class",
+      "rail.locomotive_class_operator_relationship.locomotive_class",
+      "rail.electric_system.locomotive_class"
+    ],
+    "concert tour": [
+      "music.concert.concert_tour",
+      "music.concert_film.concert_tour",
+      "music.live_album.concert_tour"
+    ],
+    "films": [
+      "film.film_festival_event.films",
+      "film.person_or_entity_appearing_in_film.films",
+      "film.production_company.films",
+      "film.film_subject.films",
+      "film.film_company.films",
+      "film.film_song.films"
+    ],
+    "sponsor": [
+      "exhibitions.exhibition_run.sponsor",
+      "film.film_festival_sponsorship.sponsor",
+      "internet.top_level_domain.sponsor",
+      "medicine.medical_trial.sponsor",
+      "spaceflight.space_program.sponsor"
+    ],
+    "aircraft model": [
+      "aviation.aircraft_ownership_count.aircraft_model",
+      "aviation.aviation_incident_aircraft_relationship.aircraft_model"
+    ],
+    "canonical brands": [
+      "medicine.drug.canonical_brands",
+      "medicine.routed_drug.canonical_brands"
+    ],
+    "demonstration medals won": [
+      "olympics.olympic_athlete.demonstration_medals_won",
+      "olympics.olympic_participating_country.demonstration_medals_won"
+    ],
+    "conference": [
+      "basketball.basketball_team.conference",
+      "conferences.conference_series.conference",
+      "american_football.football_team.conference",
+      "ice_hockey.hockey_team.conference",
+      "basketball.basketball_division.conference",
+      "ice_hockey.hockey_division.conference",
+      "american_football.football_division.conference",
+      "conferences.conference_proceedings.conference"
+    ],
+    "exhibits": [
+      "zoos.zoo.exhibits",
+      "exhibitions.exhibition.exhibits"
+    ],
+    "historical coaches": [
+      "baseball.baseball_team.historical_coaches",
+      "baseball.baseball_coaching_position.historical_coaches"
+    ],
+    "groups": [
+      "music.conductor.groups",
+      "comedy.comedian.groups",
+      "comedy.comedy_genre.groups"
+    ],
+    "includes": [
+      "music.composition.includes",
+      "religion.religion.includes",
+      "astronomy.type_of_planetographic_feature.includes"
+    ],
+    "government service": [
+      "government.government_service_channel.government_service",
+      "government.government_service_type.government_service"
+    ],
+    "issue": [
+      "business.stock_ticker_symbol.issue",
+      "business.issuer.issue",
+      "business.holding.issue",
+      "comic_books.comic_story_printing.issue"
+    ],
+    "product lines": [
+      "business.brand.product_lines",
+      "business.consumer_company.product_lines",
+      "business.product_category.product_lines",
+      "business.product_theme.product_lines"
+    ],
+    "population": [
+      "location.statistical_region.population",
+      "people.ethnicity.population"
+    ],
+    "chefs": [
+      "dining.restaurant.chefs",
+      "dining.cuisine.chefs"
+    ],
+    "emulators": [
+      "computer.computer.emulators",
+      "computer.computer_peripheral.emulators",
+      "computer.computer_peripheral_class.emulators"
+    ],
+    "employees": [
+      "business.employer.employees",
+      "fictional_universe.fictional_employer.employees"
+    ],
+    "position": [
+      "sports.sports_team_roster.position",
+      "soccer.football_player.position_s",
+      "american_football.football_player.position_s",
+      "baseball.baseball_player.position_s",
+      "basketball.basketball_player.position_s",
+      "sports.sports_team_coach_tenure.position",
+      "people.appointee.position",
+      "american_football.football_historical_coach_position.position",
+      "people.appointment_nomination.position"
+    ],
+    "generations": [
+      "automotive.model.generations",
+      "automotive.platform.generations"
+    ],
+    "supporting game versions": [
+      "computer.computer_peripheral.supporting_game_versions",
+      "computer.computer_peripheral_class.supporting_game_versions"
+    ],
+    "higher order": [
+      "royalty.chivalric_order_relationship.higher_order",
+      "royalty.order_of_chivalry.higher_order"
+    ],
+    "model": [
+      "automotive.make.model_s",
+      "automotive.generation.model",
+      "aviation.aircraft.model",
+      "automotive.manufacturing_plant_model_relationship.model",
+      "automotive.privately_owned_vehicle.model",
+      "automotive.model_year.model"
+    ],
+    "featured in fictional universe": [
+      "fictional_universe.fictional_object.featured_in_fictional_universe",
+      "fictional_universe.fictional_creature.featured_in_fictional_universe",
+      "fictional_universe.fictional_plant.featured_in_fictional_universe"
+    ],
+    "related": [
+      "automotive.model.related",
+      "automotive.platform.related"
+    ],
+    "athletes": [
+      "olympics.olympic_games.athletes",
+      "olympics.olympic_participating_country.athletes",
+      "olympics.olympic_sport.athletes",
+      "sports.sport_country.athletes"
+    ],
+    "symbol": [
+      "location.location_symbol_relationship.symbol",
+      "skiing.run_rating.symbol"
+    ],
+    "engine": [
+      "spaceflight.rocket_stage.engine",
+      "automotive.trim_level.engine"
+    ],
+    "filming locations": [
+      "tv.tv_program.filming_locations",
+      "tv.tv_series_episode.filming_locations",
+      "tv.tv_episode_segment.filming_locations"
+    ],
+    "film release region": [
+      "film.film_regional_release_date.film_release_region",
+      "film.film_cut.film_release_region"
+    ],
+    "performed at": [
+      "theater.theater_production.performed_at",
+      "opera.opera_production.performed_at"
+    ],
+    "discipline": [
+      "book.journal.discipline",
+      "award.hall_of_fame.discipline"
+    ],
+    "generation": [
+      "physics.particle.generation",
+      "automotive.model_year.generation",
+      "automotive.body_style.generation"
+    ],
+    "travel destination": [
+      "travel.travel_destination_monthly_climate.travel_destination",
+      "travel.transportation.travel_destination"
+    ],
+    "terminuses": [
+      "metropolitan_transit.transit_line.terminuses",
+      "rail.railway.terminuses"
+    ],
+    "awards presented": [
+      "award.award_ceremony.awards_presented",
+      "award.award_presenting_organization.awards_presented"
+    ],
+    "sports teams": [
+      "education.educational_institution.sports_teams",
+      "sports.sports_gender.sports_teams"
+    ],
+    "cast": [
+      "theater.theater_production.cast",
+      "opera.opera_production.cast"
+    ],
+    "award nominations": [
+      "award.award_nominee.award_nominations",
+      "award.award_nominated_work.award_nominations"
+    ],
+    "students graduates": [
+      "education.educational_institution.students_graduates",
+      "fictional_universe.school_in_fiction.students_graduates"
+    ],
+    "olympics": [
+      "olympics.olympic_athlete_affiliation.olympics",
+      "olympics.olympic_medal_honor.olympics",
+      "olympics.olympic_torch_relay.olympics",
+      "olympics.olympic_torch_relay_location.olympics",
+      "olympics.olympic_demonstration_medal_honor.olympics"
+    ],
+    "newspaper": [
+      "education.educational_institution.newspaper",
+      "book.newspaper_issue.newspaper"
+    ],
+    "track": [
+      "music.artist.track",
+      "music.release.track",
+      "music.track_contribution.track"
+    ],
+    "airport": [
+      "aviation.airline_airport_presence.airport",
+      "aviation.airport_runway.airport",
+      "aviation.airport_terminal.airport"
+    ],
+    "operating system": [
+      "computer.software_compatibility.operating_system",
+      "computer.os_compatibility.operating_system"
+    ],
+    "api": [
+      "internet.website.api",
+      "internet.protocol.api"
+    ],
+    "celebrity": [
+      "celebrities.romantic_relationship.celebrity",
+      "celebrities.sexual_orientation_phase.celebrity",
+      "celebrities.legal_entanglement.celebrity",
+      "celebrities.substance_abuse_problem.celebrity",
+      "celebrities.rehab.celebrity"
+    ],
+    "model year": [
+      "automotive.trim_level.model_year",
+      "automotive.privately_owned_vehicle.model_year"
+    ],
+    "coaching position": [
+      "baseball.current_coaching_tenure.coaching_position",
+      "baseball.historical_coaching_tenure.coaching_position"
+    ],
+    "judges": [
+      "law.legal_case.judges",
+      "law.court.judges",
+      "law.judicial_title.judges"
+    ],
+    "team stats": [
+      "baseball.baseball_team.team_stats",
+      "basketball.basketball_team.team_stats"
+    ],
+    "building": [
+      "architecture.occupancy.building",
+      "religion.religious_organization.building"
+    ],
+    "quotations": [
+      "people.person.quotations",
+      "media_common.quotation_source.quotations",
+      "fictional_universe.fictional_character.quotations",
+      "media_common.quotation_addressee.quotations"
+    ],
+    "casualties": [
+      "military.military_combatant.casualties",
+      "military.military_conflict.casualties"
+    ],
+    "species": [
+      "fictional_universe.fictional_character.species",
+      "zoos.zoo_exhibit.species",
+      "fictional_universe.fictional_universe.species"
+    ],
+    "producers": [
+      "music.release.producers",
+      "tv.tv_series_episode.producers"
+    ],
+    "issues": [
+      "book.magazine.issues",
+      "comic_books.comic_book_series.issues",
+      "book.newspaper.issues"
+    ],
+    "infusions": [
+      "distilled_spirits.infused_spirit_style.infusions",
+      "distilled_spirits.spirit_blender.infusions",
+      "distilled_spirits.distilled_spirit_type.infusions"
+    ],
+    "spirits": [
+      "distilled_spirits.distilled_spirit_type.spirits",
+      "distilled_spirits.distillery.spirits"
+    ],
+    "tincture": [
+      "symbols.heraldic_charge_color.tincture",
+      "symbols.heraldic_variation_of_the_field_color.tincture",
+      "symbols.heraldic_ordinaire_color.tincture"
+    ],
+    "operator": [
+      "aviation.airliner_accident.operator",
+      "aviation.aviation_incident_aircraft_relationship.operator",
+      "aviation.airport.operator",
+      "rail.railway_operator_relationship.operator",
+      "rail.railway.operator_s"
+    ],
+    "elections": [
+      "government.political_district.elections",
+      "government.electoral_college.elections"
+    ],
+    "locomotive classes": [
+      "rail.steam_locomotive_wheel_configuration.locomotive_classes",
+      "rail.railway_operator.locomotive_classes",
+      "rail.rail_gauge.locomotive_classes"
+    ],
+    "higher classification": [
+      "biology.organism_classification.higher_classification",
+      "biology.organism_classification_placement.higher_classification",
+      "astronomy.telescope_type.higher_classification"
+    ],
+    "aircraft": [
+      "aviation.comparable_aircraft_relationship.aircraft",
+      "aviation.airliner_accident.aircraft",
+      "aviation.aircraft_model.aircraft"
+    ],
+    "influenced by": [
+      "influence.influence_node.influenced_by",
+      "computer.programming_language.influenced_by",
+      "cvg.computer_videogame.influenced_by"
+    ],
+    "ownership status": [
+      "medicine.hospital_ownership.ownership_status",
+      "medicine.hospital.ownership_status"
+    ],
+    "origin": [
+      "music.artist.origin",
+      "geography.river.origin",
+      "martial_arts.martial_art.origin",
+      "games.game.origin",
+      "base.lightweight.beer_hop.origin"
+    ],
+    "concert": [
+      "music.concert_set_list.concert",
+      "music.concert_performance.concert",
+      "music.concert_film.concert",
+      "music.live_album.concert"
+    ],
+    "pregnancy category": [
+      "medicine.drug.pregnancy_category",
+      "medicine.drug_formulation.pregnancy_category"
+    ],
+    "guidebooks": [
+      "travel.travel_destination.guidebooks",
+      "travel.guidebook_series.guidebooks"
+    ],
+    "mascot": [
+      "education.educational_institution.mascot",
+      "olympics.olympic_games.mascot"
+    ],
+    "siblings": [
+      "fictional_universe.fictional_character.siblings",
+      "fictional_universe.sibling_relationship_of_fictional_characters.siblings"
+    ],
+    "courts": [
+      "law.judge.courts",
+      "law.court_jurisdiction_area.courts"
+    ],
+    "engines": [
+      "engineering.engine_category.engines",
+      "automotive.fuel.engines",
+      "engineering.engine_energy_source.engines",
+      "engineering.piston_configuration.engines",
+      "engineering.engine_cooling_method.engines",
+      "engineering.valvetrain_configuration.engines",
+      "engineering.fuel_delivery_method.engines"
+    ],
+    "derived from": [
+      "games.game.derived_from",
+      "business.product_ingredient.derived_from"
+    ],
+    "genome": [
+      "biology.gene.genome",
+      "biology.chromosome.genome",
+      "biology.taxon_with_sequenced_genome.genome"
+    ],
+    "recordings": [
+      "music.composition.recordings",
+      "music.featured_artist.recordings",
+      "music.genre.recordings",
+      "opera.opera.recordings",
+      "opera.opera_production.recordings"
+    ],
+    "trim levels": [
+      "automotive.model_year.trim_levels",
+      "automotive.transmission.trim_levels",
+      "automotive.driveline.trim_levels",
+      "automotive.engine.trim_levels"
+    ],
+    "active moieties": [
+      "medicine.drug.active_moieties",
+      "medicine.drug_formulation.active_moieties"
+    ],
+    "captain": [
+      "sports.sports_team_captain_tenure.captain",
+      "ice_hockey.hockey_team.captain",
+      "cricket.cricket_roster.captain"
+    ],
+    "recipient": [
+      "royalty.chivalric_order_membership.recipient",
+      "education.honorary_degree.recipient"
+    ],
+    "zoo": [
+      "zoos.zoo_exhibit.zoo",
+      "zoos.animal_captivity.zoo"
+    ],
+    "manufacturing plant": [
+      "automotive.manufacturing_plant_model_relationship.manufacturing_plant",
+      "automotive.generation.manufacturing_plant"
+    ],
+    "parent": [
+      "organization.organization.parent",
+      "organization.organization_relationship.parent",
+      "biology.hybrid_parentage.parent"
+    ],
+    "legal cases": [
+      "law.court.legal_cases",
+      "law.legal_subject.legal_cases"
+    ],
+    "school": [
+      "education.school_mascot.school",
+      "sports.sports_league_draft_pick.school",
+      "sports.school_sports_team.school",
+      "education.school_newspaper.school",
+      "education.school_magazine.school",
+      "education.student_radio_station.school"
+    ],
+    "transit lines": [
+      "metropolitan_transit.transit_stop.transit_lines",
+      "metropolitan_transit.transit_system.transit_lines",
+      "metropolitan_transit.transit_service_type.transit_lines",
+      "metropolitan_transit.transit_vehicle.transit_lines"
+    ],
+    "personal appearances": [
+      "film.film.personal_appearances",
+      "tv.tv_episode_segment.personal_appearances"
+    ],
+    "concerts": [
+      "music.artist.concerts",
+      "music.performance_venue.concerts",
+      "music.concert_tour.concerts"
+    ],
+    "content descriptors": [
+      "cvg.computer_game_rating_system.content_descriptors",
+      "cvg.computer_game_evaluation.content_descriptors"
+    ],
+    "other crew": [
+      "film.film.other_crew",
+      "tv.tv_series_episode.other_crew"
+    ],
+    "stages": [
+      "medicine.disease.stages",
+      "spaceflight.rocket.stages"
+    ],
+    "divisions": [
+      "basketball.basketball_conference.divisions",
+      "ice_hockey.hockey_conference.divisions",
+      "american_football.football_conference.divisions",
+      "baseball.baseball_league.divisions"
+    ],
+    "song": [
+      "music.recording.song",
+      "cvg.musical_game_song_relationship.song",
+      "music.concert_set_list.song",
+      "tv.tv_episode_song_relationship.song",
+      "tv.tv_segment_song_relationship.song"
+    ],
+    "brands": [
+      "business.consumer_company.brands",
+      "medicine.drug.brands"
+    ],
+    "genres": [
+      "comedy.comedian.genres",
+      "comedy.comedy_group.genres"
+    ],
+    "holders": [
+      "royalty.noble_title.holders",
+      "business.issue.holders"
+    ],
+    "nomination": [
+      "people.appointed_role.nomination",
+      "people.appointment_nominee.nomination"
+    ],
+    "sites": [
+      "protected_sites.natural_or_cultural_site_designation.sites",
+      "internet.website_category.sites",
+      "internet.website_status.sites"
+    ],
+    "events": [
+      "location.location.events",
+      "olympics.olympic_games.events",
+      "sports.sports_championship.events",
+      "olympics.olympic_sport.events",
+      "sports.multi_event_tournament.events",
+      "fictional_universe.work_of_fiction.events",
+      "fictional_universe.fictional_setting.events",
+      "cricket.cricket_tournament.events"
+    ],
+    "market capitalization": [
+      "business.issue.market_capitalization",
+      "business.business_operation.market_capitalization"
+    ],
+    "tv episodes": [
+      "tv.tv_crew_role.tv_episodes",
+      "tv.tv_subject.tv_episodes",
+      "tv.tv_rating.tv_episodes"
+    ],
+    "compatible oses": [
+      "computer.software.compatible_oses",
+      "computer.computer.compatible_oses"
+    ],
+    "inductees": [
+      "award.hall_of_fame.inductees",
+      "award.hall_of_fame_induction_category.inductees"
+    ],
+    "computer": [
+      "computer.computer_emulator.computer",
+      "computer.os_compatibility.computer"
+    ],
+    "program": [
+      "tv.tv_network_duration.program",
+      "tv.tv_producer_term.program",
+      "tv.tv_regular_personal_appearance.program",
+      "radio.radio_program_episode.program"
+    ],
+    "discoverer": [
+      "astronomy.astronomical_discovery.discoverer",
+      "chemistry.chemical_element.discoverer"
+    ],
+    "flight destination": [
+      "aviation.airliner_accident.flight_destination",
+      "aviation.aviation_incident_aircraft_relationship.flight_destination"
+    ],
+    "peers": [
+      "influence.influence_node.peers",
+      "influence.peer_relationship.peers"
+    ],
+    "place of death": [
+      "people.deceased_person.place_of_death",
+      "biology.deceased_organism.place_of_death"
+    ],
+    "comic strip": [
+      "comic_strips.comic_strip_creator_duration.comic_strip",
+      "comic_strips.comic_strip_syndicate_duration.comic_strip"
+    ],
+    "participating countries": [
+      "olympics.olympic_games.participating_countries",
+      "sports.multi_event_tournament.participating_countries"
+    ],
+    "imprints": [
+      "book.publisher_imprint_tenure.imprints",
+      "book.publishing_company.imprints"
+    ],
+    "medalist": [
+      "olympics.olympic_medal_honor.medalist",
+      "olympics.olympic_demonstration_medal_honor.medalist"
+    ],
+    "leader": [
+      "religion.religious_organization_leadership.leader",
+      "religion.religious_leadership_jurisdiction.leader"
+    ],
+    "featured artists": [
+      "music.recording.featured_artists",
+      "music.album.featured_artists"
+    ],
+    "places of worship": [
+      "religion.religion.places_of_worship",
+      "religion.type_of_place_of_worship.places_of_worship"
+    ],
+    "languages spoken": [
+      "people.ethnicity.languages_spoken",
+      "location.country.languages_spoken"
+    ],
+    "dishes": [
+      "dining.cuisine.dishes",
+      "food.ingredient.dishes",
+      "food.type_of_dish.dishes"
+    ],
+    "occupant": [
+      "architecture.occupancy.occupant",
+      "architecture.building.occupant"
+    ],
+    "band": [
+      "biology.genomic_locus.band",
+      "biology.chromosome.band"
+    ],
+    "works set here": [
+      "fictional_universe.fictional_universe.works_set_here",
+      "fictional_universe.fictional_setting.works_set_here"
+    ],
+    "episode segments": [
+      "tv.tv_song_performer.episode_segments",
+      "tv.tv_song.episode_segments"
+    ],
+    "albums": [
+      "music.album_release_type.albums",
+      "music.album_content_type.albums",
+      "music.genre.albums",
+      "music.featured_artist.albums"
+    ],
+    "composes": [
+      "physics.quark.composes",
+      "physics.subatomic_particle_composition.composes"
+    ],
+    "armament": [
+      "boats.ship_class.armament",
+      "boats.warship_armament.armament"
+    ],
+    "committees": [
+      "organization.organization.committees",
+      "government.governmental_body.committees"
+    ],
+    "medals won": [
+      "olympics.olympic_athlete.medals_won",
+      "olympics.olympic_participating_country.medals_won"
+    ],
+    "long list nominations": [
+      "award.long_list_nominee.long_list_nominations",
+      "award.long_listed_work.long_list_nominations"
+    ],
+    "prequel": [
+      "film.film.prequel",
+      "cvg.computer_videogame.prequel"
+    ],
+    "current coaches": [
+      "baseball.baseball_team.current_coaches",
+      "baseball.baseball_coaching_position.current_coaches"
+    ],
+    "architectural style": [
+      "architecture.structure.architectural_style",
+      "architecture.architect.architectural_style"
+    ],
+    "conductor": [
+      "music.conducting_tenure.conductor",
+      "opera.opera_production.conductor"
+    ],
+    "elements": [
+      "chemistry.chemical_series.elements",
+      "chemistry.periodic_table_block.elements"
+    ],
+    "recipes": [
+      "food.ingredient.recipes",
+      "food.dish.recipes",
+      "food.recipe_collection.recipes",
+      "food.recipe_author.recipes",
+      "food.culinary_technique.recipes",
+      "food.diet.recipes"
+    ],
+    "locomotive": [
+      "rail.rolling_stock_tenure.locomotive",
+      "rail.locomotive_ownership.locomotive"
+    ],
+    "label": [
+      "music.release.label",
+      "music.artist.label",
+      "fashion.designer_label_association.label"
+    ],
+    "drug formulations": [
+      "medicine.drug_strength.drug_formulations",
+      "medicine.drug_administration_route.drug_formulations",
+      "medicine.drug_formulation_category.drug_formulations"
+    ],
+    "soundtracks": [
+      "cvg.computer_videogame.soundtracks",
+      "theater.play.soundtracks",
+      "theater.theater_production.soundtracks"
+    ],
+    "medical trials": [
+      "medicine.medical_trial_type.medical_trials",
+      "medicine.medical_trial_health_authority.medical_trials",
+      "medicine.medical_trial_phase.medical_trials"
+    ],
+    "award categories": [
+      "award.recurring_award_ceremony.award_categories",
+      "award.award_announcement.award_categories",
+      "award.award_nomination_announcement.award_categories"
+    ],
+    "blends": [
+      "distilled_spirits.blended_spirit_style.blends",
+      "distilled_spirits.distilled_spirit_type.blends",
+      "distilled_spirits.spirit_blender.blends"
+    ],
+    "committee": [
+      "organization.organization_committee_membership.committee",
+      "government.legislative_committee_membership.committee"
+    ],
+    "translations": [
+      "book.translated_work.translations",
+      "book.written_work.translations"
+    ],
+    "organizations": [
+      "fictional_universe.fictional_character.organizations",
+      "fictional_universe.fictional_universe.organizations",
+      "fictional_universe.fictional_organization_type.organizations",
+      "religion.religion.organizations"
+    ],
+    "receiving": [
+      "american_football.football_game.receiving",
+      "american_football.football_player.receiving"
+    ],
+    "championship": [
+      "sports.sports_championship_event.championship",
+      "sports.sports_league_season.championship",
+      "sports.sports_league.championship"
+    ],
+    "court": [
+      "law.legal_case.court",
+      "law.judicial_tenure.court",
+      "law.court_courthouse_relationship.court"
+    ],
+    "syndicate": [
+      "comic_strips.comic_strip.syndicate",
+      "comic_strips.comic_strip_syndicate_duration.syndicate"
+    ],
+    "military conflict": [
+      "military.military_command.military_conflict",
+      "military.casualties.military_conflict",
+      "military.force_strength.military_conflict"
+    ],
+    "festival": [
+      "film.film_festival_event.festival",
+      "film.film_festival_sponsorship.festival"
+    ],
+    "restaurant": [
+      "dining.cuisine.restaurant",
+      "dining.restaurant_chef_association.restaurant"
+    ],
+    "martial arts": [
+      "martial_arts.martial_art_category.martial_arts",
+      "martial_arts.martial_arts_organization.martial_arts"
+    ],
+    "gdp nominal": [
+      "location.statistical_region.gdp_nominal",
+      "location.country.gdp_nominal"
+    ],
+    "start date": [
+      "fictional_universe.event_in_fiction.start_date",
+      "astronomy.meteor_shower_occurrence.start_date"
+    ],
+    "gauge": [
+      "rail.railway_gauge_relationship.gauge",
+      "rail.railway.gauge",
+      "rail.locomotive_class.gauge"
+    ],
+    "dialects": [
+      "language.human_language.dialects",
+      "computer.programming_language.dialects"
+    ],
+    "area served": [
+      "broadcast.broadcast.area_served",
+      "metropolitan_transit.transit_system.area_served"
+    ],
+    "cover price": [
+      "book.book_edition.cover_price",
+      "book.magazine_issue.cover_price",
+      "comic_books.comic_book_issue.cover_price",
+      "book.newspaper_issue.cover_price"
+    ],
+    "cost": [
+      "amusement_parks.ride.cost",
+      "music.concert.cost"
+    ],
+    "advisors": [
+      "education.academic.advisors",
+      "organization.organization.advisors"
+    ],
+    "awards won": [
+      "award.award_winner.awards_won",
+      "award.award_winning_work.awards_won"
+    ],
+    "travel destinations served": [
+      "travel.transport_terminus.travel_destinations_served",
+      "travel.transport_operator.travel_destinations_served"
+    ],
+    "current team": [
+      "cricket.cricket_coach.current_team",
+      "ice_hockey.hockey_coach.current_team"
+    ],
+    "expansions": [
+      "games.game.expansions",
+      "cvg.computer_videogame.expansions"
+    ],
+    "found in fictional universe": [
+      "fictional_universe.character_species.found_in_fictional_universe",
+      "fictional_universe.fictional_language.found_in_fictional_universe"
+    ],
+    "endorsements": [
+      "business.endorsed_product.endorsements",
+      "business.product_endorsee.endorsements"
+    ],
+    "preceded by": [
+      "royalty.royal_line.preceded_by",
+      "fictional_universe.fictional_calendar_system.preceded_by"
+    ],
+    "nominees": [
+      "award.award_category.nominees",
+      "award.award_ceremony.nominees"
+    ],
+    "former callsign": [
+      "broadcast.tv_station.former_callsign",
+      "broadcast.radio_station.former_callsign"
+    ],
+    "partners": [
+      "celebrities.supercouple.partners",
+      "architecture.engineering_firm.partners"
+    ],
+    "capital city": [
+      "location.australian_state.capital_city",
+      "location.australian_territory.capital_city"
+    ],
+    "guest personal appearances": [
+      "tv.tv_series_episode.guest_personal_appearances",
+      "tv.tv_episode_segment.guest_personal_appearances"
+    ],
+    "fictional objects destroyed": [
+      "fictional_universe.fictional_object_destroyer.fictional_objects_destroyed",
+      "fictional_universe.fictional_object_destruction_method.fictional_objects_destroyed"
+    ],
+    "supporting games": [
+      "computer.computer_peripheral.supporting_games",
+      "computer.computer_peripheral_class.supporting_games"
+    ],
+    "structures destroyed": [
+      "architecture.destruction_method.structures_destroyed",
+      "event.disaster.structures_destroyed"
+    ],
+    "notable animals": [
+      "zoos.zoo.notable_animals",
+      "zoos.zoo_exhibit.notable_animals"
+    ],
+    "portrayed by": [
+      "theater.theater_character.portrayed_by",
+      "opera.opera_character.portrayed_by"
+    ],
+    "conflicts": [
+      "military.casualties_type.conflicts",
+      "military.military_resource.conflicts"
+    ],
+    "host": [
+      "biology.plant_disease_triangle.host",
+      "cricket.cricket_tournament_event.host"
+    ],
+    "companies": [
+      "business.industry.companies",
+      "business.company_termination_type.companies"
+    ],
+    "champions": [
+      "tennis.tennis_tournament.champions",
+      "boxing.boxing_title.champions",
+      "sports.boxing_weight_division.champions"
+    ],
+    "production": [
+      "theater.musical_soundtrack.production",
+      "opera.opera_recording.production"
+    ],
+    "particle": [
+      "physics.particle_antiparticle.particle",
+      "physics.subatomic_particle_composition.particle"
+    ],
+    "produced by": [
+      "film.film.produced_by",
+      "exhibitions.exhibition.produced_by",
+      "event.produced_event.produced_by"
+    ],
+    "sequel": [
+      "film.film.sequel",
+      "cvg.computer_videogame.sequel"
+    ],
+    "olympic games": [
+      "olympics.olympic_city_bid.olympic_games",
+      "olympics.olympic_mascot.olympic_games"
+    ],
+    "ship": [
+      "boats.ship_ownership.ship",
+      "user.patrick.default_domain.warship_crew_tenure.ship"
+    ],
+    "nominee": [
+      "award.long_list_nomination.nominee",
+      "people.appointment_nomination.nominee"
+    ],
+    "annual production": [
+      "food.brewery_brand_of_beer.annual_production",
+      "business.oil_field.annual_production"
+    ],
+    "sibling": [
+      "people.person.sibling_s",
+      "people.sibling_relationship.sibling"
+    ],
+    "award announcements": [
+      "award.award.award_announcements",
+      "award.award_category.award_announcements"
+    ],
+    "annual visits": [
+      "library.public_library_system.annual_visits",
+      "amusement_parks.park.annual_visits"
+    ],
+    "regular cast": [
+      "tv.tv_program.regular_cast",
+      "tv.tv_series_season.regular_cast"
+    ],
+    "service": [
+      "military.military_person.service",
+      "tv.video.service"
+    ],
+    "odi stats": [
+      "cricket.cricket_player.odi_stats",
+      "cricket.cricket_team.odi_stats",
+      "cricket.cricket_coach_tenure.odi_stats"
+    ],
+    "places lived": [
+      "people.person.places_lived",
+      "fictional_universe.fictional_character.places_lived"
+    ],
+    "regular personal appearances": [
+      "tv.tv_program.regular_personal_appearances",
+      "tv.tv_series_season.regular_personal_appearances"
+    ],
+    "breed": [
+      "biology.pedigreed_animal.breed",
+      "biology.breed_registration.breed"
+    ],
+    "edition": [
+      "book.newspaper_circulation.edition",
+      "book.newspaper_price.edition"
+    ],
+    "launch site": [
+      "spaceflight.satellite.launch_site",
+      "spaceflight.space_mission.launch_site"
+    ],
+    "medical specialties": [
+      "medicine.hospital.medical_specialties",
+      "medicine.disease.medical_specialties"
+    ],
+    "beers": [
+      "food.beer_container.beers",
+      "food.beer_style.beers"
+    ],
+    "missions": [
+      "spaceflight.astronaut.missions",
+      "spaceflight.space_program.missions"
+    ],
+    "polls": [
+      "government.polling_authority.polls",
+      "government.poll_respondent_category.polls",
+      "government.election_with_polls.polls"
+    ],
+    "lyricist": [
+      "music.composition.lyricist",
+      "theater.play.lyricist"
+    ],
+    "government": [
+      "government.government_agency.government",
+      "government.governmental_jurisdiction.government"
+    ],
+    "name history": [
+      "user.alexander.misc.thing_of_many_names.name_history",
+      "amusement_parks.park.name_history"
+    ],
+    "gene": [
+      "biology.gene_group.gene",
+      "biology.gene_group_membership.gene",
+      "biology.genome.gene",
+      "biology.chromosome.gene"
+    ],
+    "baseball team": [
+      "baseball.current_coaching_tenure.baseball_team",
+      "baseball.historical_coaching_tenure.baseball_team"
+    ],
+    "ordinaire": [
+      "symbols.coat_of_arms.ordinaire",
+      "symbols.heraldic_ordinaire_color.ordinaire"
+    ],
+    "medalists": [
+      "olympics.olympic_event_competition.medalists",
+      "olympics.olympic_demonstration_competition.medalists"
+    ],
+    "affiliations": [
+      "broadcast.tv_station.affiliations",
+      "broadcast.radio_station.affiliations"
+    ],
+    "district seat": [
+      "location.de_rural_district.district_seat",
+      "location.de_regierungsbezirk.district_seat"
+    ],
+    "vaccine": [
+      "medicine.infectious_disease.vaccine",
+      "medicine.vaccine_developer.vaccine"
+    ],
+    "isotopes": [
+      "chemistry.chemical_element.isotopes",
+      "chemistry.particle_spin.isotopes",
+      "chemistry.radioactive_decay_mode.isotopes"
+    ],
+    "segments": [
+      "tv.tv_series_episode.segments",
+      "tv.sequence_of_tv_episode_segments.segments",
+      "radio.radio_program_episode.segments"
+    ],
+    "dates": [
+      "cricket.cricket_tournament_event.dates",
+      "cricket.cricket_series_event.dates"
+    ],
+    "interior": [
+      "automotive.privately_owned_vehicle.interior",
+      "automotive.trim_level.interior"
+    ],
+    "designated minority": [
+      "location.cn_autonomous_county.designated_minority",
+      "location.cn_autonomous_prefecture.designated_minority",
+      "location.cn_autonomous_region.designated_minority"
+    ],
+    "focus": [
+      "film.film_festival.focus",
+      "internet.blog.focus",
+      "conferences.conference.focus"
+    ],
+    "tv programs": [
+      "tv.tv_writer.tv_programs",
+      "tv.tv_subject.tv_programs"
+    ],
+    "baseball coach": [
+      "baseball.current_coaching_tenure.baseball_coach",
+      "baseball.historical_coaching_tenure.baseball_coach"
+    ],
+    "county": [
+      "location.hud_county_place.county",
+      "location.hud_section_8_area.county"
+    ],
+    "flag": [
+      "symbols.flag_use.flag",
+      "symbols.flag_referent.flag"
+    ],
+    "unit": [
+      "military.military_service.unit",
+      "food.recipe_ingredient.unit"
+    ],
+    "disciplinary action": [
+      "soccer.football_player.disciplinary_action",
+      "soccer.football_match.disciplinary_action"
+    ],
+    "locus": [
+      "biology.gene.locus",
+      "biology.chromosome.locus",
+      "biology.cytogenetic_band.locus"
+    ],
+    "subclasses": [
+      "rail.locomotive_class.subclasses",
+      "measurement_unit.measuring_instrument.subclasses",
+      "physics.particle_family.subclasses"
+    ],
+    "objects": [
+      "astronomy.celestial_object_category.objects",
+      "astronomy.astronomical_discovery_status.objects"
+    ],
+    "songs": [
+      "cvg.musical_game.songs",
+      "film.film.songs",
+      "tv.tv_series_episode.songs",
+      "tv.tv_episode_segment.songs"
+    ],
+    "interior illustrations by": [
+      "book.book.interior_illustrations_by",
+      "book.book_edition.interior_illustrations_by",
+      "book.magazine_issue.interior_illustrations_by"
+    ],
+    "end date": [
+      "fictional_universe.event_in_fiction.end_date",
+      "astronomy.meteor_shower_occurrence.end_date"
+    ],
+    "competition": [
+      "sports.competitor_competition_relationship.competition",
+      "olympics.demonstration_event_athlete_relationship.competition"
+    ],
+    "legal status": [
+      "medicine.drug_formulation.legal_status",
+      "medicine.drug.legal_status"
+    ],
+    "units": [
+      "military.armed_force.units",
+      "measurement_unit.dimension.units"
+    ],
+    "postal code": [
+      "location.mailing_address.postal_code",
+      "location.australian_suburb.postal_code"
+    ],
+    "particles": [
+      "physics.particle_family.particles",
+      "physics.subatomic_particle_generation.particles",
+      "physics.fundamental_interaction.particles"
+    ],
+    "composer": [
+      "music.composition.composer",
+      "theater.play.composer",
+      "opera.opera.composer"
+    ],
+    "basin countries": [
+      "geography.river.basin_countries",
+      "geography.lake.basin_countries"
+    ],
+    "geographic distribution": [
+      "people.ethnicity.geographic_distribution",
+      "language.language_family.geographic_distribution"
+    ],
+    "designed by": [
+      "aviation.aircraft_model.designed_by",
+      "spaceflight.rocket_engine.designed_by"
+    ],
+    "titles conferring this rank": [
+      "royalty.noble_rank.titles_conferring_this_rank",
+      "royalty.chivalric_rank.titles_conferring_this_rank"
+    ],
+    "tropical cyclone categories": [
+      "meteorology.meteorological_service.tropical_cyclone_categories",
+      "meteorology.beaufort_wind_force.tropical_cyclone_categories"
+    ],
+    "award winner": [
+      "award.award_honor.award_winner",
+      "sports.sports_award.award_winner"
+    ],
+    "cell type": [
+      "engineering.battery_size_cell_variation.cell_type",
+      "engineering.battery.cell_type"
+    ],
+    "governing body": [
+      "protected_sites.protected_site.governing_body",
+      "soccer.football_league.governing_body"
+    ],
+    "circulation": [
+      "book.newspaper.circulation",
+      "book.magazine.circulation"
+    ],
+    "partner in firm": [
+      "architecture.architecture_firm_partners.partner_in_firm",
+      "architecture.engineer.partner_in_firm"
+    ],
+    "solubility": [
+      "chemistry.solubility_relationship.solubility",
+      "chemistry.chemical_compound.solubility"
+    ],
+    "administrative division": [
+      "location.administrative_division_capital_relationship.administrative_division",
+      "location.location_symbol_relationship.administrative_division"
+    ],
+    "product line": [
+      "business.consumer_product.product_line",
+      "business.company_product_line_relationship.product_line"
+    ],
+    "games published": [
+      "cvg.cvg_publisher.games_published",
+      "games.game_publisher.games_published"
+    ],
+    "test stats": [
+      "cricket.cricket_player.test_stats",
+      "cricket.cricket_team.test_stats",
+      "cricket.cricket_coach_tenure.test_stats"
+    ],
+    "ethnicity": [
+      "people.person.ethnicity",
+      "fictional_universe.fictional_character.ethnicity"
+    ],
+    "powerplant": [
+      "boats.ship_class.powerplant",
+      "boats.ship_powerplant_system.powerplant"
+    ],
+    "themes": [
+      "business.consumer_product.themes",
+      "business.product_line.themes"
+    ],
+    "zoos": [
+      "zoos.zoo_animal.zoos",
+      "zoos.zoo_category.zoos"
+    ],
+    "stories in this genre": [
+      "media_common.literary_genre.stories_in_this_genre",
+      "comic_books.comic_book_genre.stories_in_this_genre"
+    ],
+    "people": [
+      "people.ethnicity.people",
+      "people.cause_of_death.people"
+    ],
+    "distributor": [
+      "film.film_film_distributor_relationship.distributor",
+      "broadcast.broadcast.distributor"
+    ],
+    "mass": [
+      "chemistry.isotope.mass",
+      "physics.particle.mass"
+    ],
+    "creator of strip": [
+      "comic_strips.comic_strip_creator_duration.creator_of_strip",
+      "comic_strips.comic_strip.creator_of_strip"
+    ],
+    "active ingredients": [
+      "medicine.drug_formulation.active_ingredients",
+      "medicine.drug_brand.active_ingredients"
+    ],
+    "peripheral classes supported": [
+      "cvg.computer_videogame.peripheral_classes_supported",
+      "cvg.game_version.peripheral_classes_supported"
+    ],
+    "spun off from": [
+      "tv.tv_program.spun_off_from",
+      "organization.organization.spun_off_from"
+    ],
+    "combatant": [
+      "military.casualties.combatant",
+      "military.force_strength.combatant"
+    ],
+    "daily riders": [
+      "metropolitan_transit.transit_system.daily_riders",
+      "metropolitan_transit.transit_line.daily_riders"
+    ],
+    "grape variety": [
+      "wine.grape_variety_composition.grape_variety",
+      "wine.wine.grape_variety"
+    ],
+    "size": [
+      "common.image.size",
+      "engineering.battery_size_cell_variation.size",
+      "engineering.battery.size"
+    ],
+    "animal": [
+      "zoos.animal_captivity.animal",
+      "biology.animal_ownership.animal"
+    ],
+    "ski runs": [
+      "skiing.run_rating.ski_runs",
+      "skiing.ski_area.ski_runs"
+    ],
+    "headquarters": [
+      "organization.organization.headquarters",
+      "book.newspaper.headquarters",
+      "location.uk_region.headquarters"
+    ],
+    "appearance type": [
+      "tv.tv_regular_personal_appearance.appearance_type",
+      "tv.tv_guest_personal_appearance.appearance_type",
+      "tv.tv_segment_personal_appearance.appearance_type"
+    ],
+    "lower order": [
+      "royalty.chivalric_order_relationship.lower_order",
+      "royalty.order_of_chivalry.lower_order"
+    ],
+    "sub series": [
+      "book.literary_series.sub_series",
+      "book.book_edition_series.sub_series"
+    ],
+    "spin offs": [
+      "tv.tv_program.spin_offs",
+      "organization.organization.spin_offs"
+    ],
+    "road": [
+      "transportation.road_starting_point.road",
+      "transportation.road_junction.road"
+    ],
+    "order of chivalry": [
+      "royalty.chivalric_rank_precedence.order_of_chivalry",
+      "royalty.chivalric_title.order_of_chivalry"
+    ],
+    "influenced": [
+      "influence.influence_node.influenced",
+      "computer.programming_language.influenced",
+      "cvg.computer_videogame.influenced"
+    ],
+    "games designed": [
+      "cvg.cvg_designer.games_designed",
+      "games.game_designer.games_designed"
+    ],
+    "astronauts": [
+      "spaceflight.space_mission.astronauts",
+      "spaceflight.space_agency.astronauts"
+    ],
+    "armed force": [
+      "military.military_unit.armed_force",
+      "military.military_post_use.armed_force"
+    ],
+    "written by": [
+      "film.film.written_by",
+      "computer.file_format.written_by"
+    ],
+    "leagues": [
+      "sports.sport.leagues",
+      "soccer.football_league_system.leagues"
+    ],
+    "category of": [
+      "award.award_category.category_of",
+      "protected_sites.site_listing_category.category_of",
+      "engineering.engine_category.category_of"
+    ],
+    "licensee": [
+      "food.licensee_tenure.licensee",
+      "food.drinking_establishment.licensee"
+    ],
+    "holidays": [
+      "time.day_of_year.holidays",
+      "religion.religion.holidays",
+      "time.holiday_category.holidays",
+      "time.holiday_period.holidays"
+    ],
+    "dedications": [
+      "media_common.dedicatee.dedications",
+      "media_common.dedicator.dedications"
+    ],
+    "directed by": [
+      "film.film.directed_by",
+      "music.music_video.directed_by"
+    ],
+    "registered with": [
+      "organization.non_profit_organization.registered_with",
+      "biology.animal_breed.registered_with"
+    ]
+  },
+  "attributes": {
+    "from": [
+      "sports.sports_team_roster.from",
+      "people.marriage.from",
+      "soccer.football_player_stats.from",
+      "tv.tv_series_season.from",
+      "business.employment_tenure.from",
+      "government.government_position_held.from",
+      "organization.organization_board_membership.from",
+      "organization.leadership.from",
+      "tv.regular_tv_appearance.from",
+      "tv.tv_regular_personal_appearance.from",
+      "award.category_ceremony_relationship.from",
+      "book.periodical_publisher_period.from",
+      "sports.team_venue_relationship.from",
+      "tv.tv_network_duration.from",
+      "soccer.football_team_management_tenure.from",
+      "tv.tv_producer_term.from",
+      "organization.organization_membership.from",
+      "broadcast.tv_channel.from",
+      "organization.organization_relationship.from",
+      "government.political_party_tenure.from",
+      "royalty.chivalric_order_membership.from",
+      "basketball.basketball_historical_coach_position.from",
+      "sports.sports_team_coach_tenure.from",
+      "music.conducting_tenure.from",
+      "theater.theater_role.from",
+      "sports.sports_team_captain_tenure.from",
+      "american_football.football_historical_coach_position.from",
+      "book.editorial_tenure.from",
+      "internet.website_ownership.from",
+      "business.sponsorship.from",
+      "baseball.baseball_historical_managerial_position.from",
+      "baseball.historical_coaching_tenure.from",
+      "education.academic_post.from",
+      "user.alexander.misc.dated_name.from",
+      "business.asset_ownership.from",
+      "zoos.animal_captivity.from",
+      "book.periodical_frequency.from",
+      "visual_art.artwork_location_relationship.from",
+      "architecture.occupancy.from",
+      "comic_strips.comic_strip_creator_duration.from",
+      "film.film_festival_sponsorship.from",
+      "organization.organization_committee_membership.from",
+      "book.place_of_publication_period.from",
+      "people.group_membership.from",
+      "soccer.football_player_loan.from",
+      "education.gender_enrollment.from",
+      "biology.animal_ownership.from",
+      "book.publisher_imprint_tenure.from",
+      "book.periodical_format_period.from",
+      "business.product_endorsement.from",
+      "location.administrative_division_capital_relationship.from",
+      "user.patrick.default_domain.warship_crew_tenure.from",
+      "automotive.manufacturing_plant_model_relationship.from",
+      "theater.theater_production_staff_gig.from",
+      "opera.opera_role.from",
+      "royalty.chivalric_order_position_tenure.from",
+      "comic_strips.comic_strip_syndicate_duration.from",
+      "royalty.chivalric_rank_precedence.from",
+      "religion.religious_leadership_jurisdiction_appointment.from",
+      "royalty.system_order_relationship.from",
+      "boxing.boxing_title_tenure.from",
+      "government.electoral_college_elected_office.from",
+      "amusement_parks.disney_ride_ticket_membership.from",
+      "finance.exchange_operator_relationship.from",
+      "opera.opera_production_staff_gig.from",
+      "food.licensee_tenure.from",
+      "people.appointment_nomination.from",
+      "biology.breed_registration.from",
+      "comedy.comedy_group_membership.from"
+    ],
+    "to": [
+      "sports.sports_team_roster.to",
+      "soccer.football_player_stats.to",
+      "people.marriage.to",
+      "business.employment_tenure.to",
+      "government.government_position_held.to",
+      "tv.regular_tv_appearance.to",
+      "organization.organization_board_membership.to",
+      "tv.tv_regular_personal_appearance.to",
+      "award.category_ceremony_relationship.to",
+      "tv.tv_series_season.to",
+      "organization.leadership.to",
+      "tv.tv_network_duration.to",
+      "soccer.football_team_management_tenure.to",
+      "tv.tv_producer_term.to",
+      "book.periodical_publisher_period.to",
+      "sports.team_venue_relationship.to",
+      "basketball.basketball_historical_coach_position.to",
+      "government.political_party_tenure.to",
+      "music.conducting_tenure.to",
+      "organization.organization_membership.to",
+      "american_football.football_historical_coach_position.to",
+      "organization.organization_relationship.to",
+      "sports.sports_team_captain_tenure.to",
+      "theater.theater_role.to",
+      "sports.sports_team_coach_tenure.to",
+      "royalty.chivalric_order_membership.to",
+      "book.editorial_tenure.to",
+      "baseball.baseball_historical_managerial_position.to",
+      "baseball.historical_coaching_tenure.to",
+      "business.sponsorship.to",
+      "education.academic_post.to",
+      "user.alexander.misc.dated_name.to",
+      "comic_strips.comic_strip_creator_duration.to",
+      "book.periodical_frequency.to",
+      "organization.organization_committee_membership.to",
+      "business.asset_ownership.to",
+      "visual_art.artwork_location_relationship.to",
+      "book.place_of_publication_period.to",
+      "architecture.occupancy.to",
+      "soccer.football_player_loan.to",
+      "zoos.animal_captivity.to",
+      "biology.animal_ownership.to",
+      "internet.website_ownership.to",
+      "theater.theater_production_staff_gig.to",
+      "book.periodical_format_period.to",
+      "business.product_endorsement.to",
+      "user.patrick.default_domain.warship_crew_tenure.to",
+      "people.group_membership.to",
+      "broadcast.tv_channel.to",
+      "automotive.manufacturing_plant_model_relationship.to",
+      "opera.opera_role.to",
+      "film.film_festival_sponsorship.to",
+      "location.administrative_division_capital_relationship.to",
+      "religion.religious_leadership_jurisdiction_appointment.to",
+      "royalty.chivalric_rank_precedence.to",
+      "comic_strips.comic_strip_syndicate_duration.to",
+      "education.gender_enrollment.to",
+      "boxing.boxing_title_tenure.to",
+      "royalty.system_order_relationship.to",
+      "amusement_parks.disney_ride_ticket_membership.to",
+      "book.publisher_imprint_tenure.to",
+      "opera.opera_production_staff_gig.to",
+      "government.electoral_college_elected_office.to",
+      "finance.exchange_operator_relationship.to",
+      "people.appointment_nomination.to",
+      "food.licensee_tenure.to",
+      "biology.breed_registration.to",
+      "comedy.comedy_group_membership.to"
+    ],
+    "length": [
+      "music.recording.length",
+      "music.release.length",
+      "transportation.road.length",
+      "music.release_track.length",
+      "geography.river.length",
+      "geography.lake.length",
+      "sports.golf_course.length",
+      "rail.railway.length",
+      "geography.glacier.length",
+      "aviation.airport_runway.length",
+      "rail.locomotive_class.length",
+      "transportation.transit_system_length.length",
+      "engineering.battery_size.length",
+      "automotive.trim_level.length"
+    ],
+    "date": [
+      "measurement_unit.dated_percentage.date",
+      "measurement_unit.dated_float.date",
+      "measurement_unit.dated_metric_ton.date",
+      "location.co2_emission.date",
+      "american_football.forty_yard_dash_time.date",
+      "book.periodical_publication_date.date",
+      "measurement_unit.dated_kgoe.date",
+      "measurement_unit.dated_kilowatt_hour.date",
+      "measurement_unit.dated_index_value.date",
+      "award.hall_of_fame_induction.date",
+      "measurement_unit.dated_days.date",
+      "business.acquisition.date",
+      "measurement_unit.dated_cubic_meters.date",
+      "measurement_unit.recurring_money_value.date",
+      "venture_capital.venture_investment.date",
+      "location.religion_percentage.date",
+      "tennis.tennis_match.date",
+      "media_common.quotation.date",
+      "measurement_unit.monetary_range.date",
+      "music.recording.date",
+      "organization.organization_merger.date",
+      "organization.organization_spin_off.date",
+      "event.speech_or_presentation.date",
+      "aviation.airliner_accident.date",
+      "location.imports_and_exports.date",
+      "celebrities.legal_entanglement.date",
+      "location.imports_exports_by_industry.date",
+      "book.newspaper_circulation.date",
+      "people.human_measurement.date",
+      "boats.boat_disposition.date",
+      "martial_arts.martial_arts_certification.date",
+      "amusement_parks.accident.date",
+      "military.force_strength.date",
+      "olympics.olympic_torch_relay.date",
+      "aviation.cargo_by_year.date",
+      "business.market_share.date",
+      "location.oil_production.date",
+      "chess.chess_game.date",
+      "food.beer_production.date",
+      "transportation.transit_system_length.date",
+      "base.lightweight.regional_dated_float.date",
+      "location.natural_gas_production.date",
+      "measurement_unit.dated_ratio.date",
+      "location.electricity_production.date",
+      "base.lightweight.regional_dated_integer.date",
+      "education.student_teacher_ratio.date",
+      "aviation.aircraft_status.date",
+      "cricket.cricket_player_debut.date",
+      "american_football.football_game.date"
+    ],
+    "frequency": [
+      "broadcast.fm_terrestrial_broadcast_facility.frequency",
+      "broadcast.am_terrestrial_broadcast_facility.frequency"
+    ],
+    "started": [
+      "internet.blog.started",
+      "baseball.current_coaching_tenure.started",
+      "spaceflight.space_program.started"
+    ],
+    "end date": [
+      "time.event.end_date",
+      "education.education.end_date",
+      "people.place_lived.end_date",
+      "business.stock_ticker_symbol.end_date",
+      "theater.theater_production_venue_relationship.end_date",
+      "tv.tv_program_writer_relationship.end_date",
+      "religion.religious_organization_leadership.end_date",
+      "business.company_name_change.end_date",
+      "architecture.ownership.end_date",
+      "celebrities.romantic_relationship.end_date",
+      "cricket.cricket_coach_tenure.end_date",
+      "opera.opera_production_venue_relationship.end_date",
+      "government.legislative_committee_membership.end_date",
+      "medicine.medical_trial.end_date",
+      "skiing.ski_area_ownership.end_date",
+      "medicine.hospital_ownership.end_date",
+      "music.concert.end_date"
+    ],
+    "to date": [
+      "royalty.noble_title_tenure.to_date",
+      "military.military_service.to_date",
+      "broadcast.tv_affiliation_duration.to_date",
+      "projects.project_participation.to_date",
+      "broadcast.callsign_duration.to_date",
+      "dining.restaurant_chef_association.to_date",
+      "law.judicial_tenure.to_date",
+      "boats.ship_ownership.to_date",
+      "royalty.system_title_relationship.to_date",
+      "business.company_brand_relationship.to_date",
+      "royalty.monarch.to_date",
+      "business.company_product_relationship.to_date",
+      "military.military_posting.to_date",
+      "royalty.system_rank_relationship.to_date",
+      "business.company_product_line_relationship.to_date",
+      "military.military_post_use.to_date",
+      "religion.place_of_worship_historical_use.to_date",
+      "symbols.flag_use.to_date",
+      "sports.sports_official_tenure.to_date",
+      "business.brand_slogan.to_date",
+      "fashion.designer_label_association.to_date",
+      "broadcast.radio_affiliation_duration.to_date",
+      "business.brand_colors.to_date",
+      "rail.rolling_stock_tenure.to_date",
+      "rail.locomotive_ownership.to_date",
+      "rail.railway_gauge_relationship.to_date",
+      "law.court_courthouse_relationship.to_date",
+      "rail.railway_operator_relationship.to_date",
+      "rail.railway_type_relationship.to_date",
+      "rail.locomotive_class_operator_relationship.to_date"
+    ],
+    "triples": [
+      "baseball.batting_statistics.triples",
+      "baseball.lifetime_batting_statistics.triples"
+    ],
+    "end": [
+      "music.group_membership.end",
+      "measurement_unit.time_interval.end",
+      "celebrities.substance_abuse_problem.end",
+      "celebrities.sexual_orientation_phase.end",
+      "cricket.cricket_umpire_panel_membership.end"
+    ],
+    "duration": [
+      "tv.video.duration",
+      "amusement_parks.ride.duration",
+      "cricket.team_inning_batting_stats.duration",
+      "astronomy.galactic_interaction.duration"
+    ],
+    "grand slams": [
+      "baseball.batting_statistics.grand_slams",
+      "baseball.lifetime_batting_statistics.grand_slams"
+    ],
+    "magnetic moment": [
+      "chemistry.isotope.magnetic_moment",
+      "physics.magnetic_moment.magnetic_moment"
+    ],
+    "from date": [
+      "royalty.noble_title_tenure.from_date",
+      "projects.project_participation.from_date",
+      "royalty.system_title_relationship.from_date",
+      "business.company_product_relationship.from_date",
+      "broadcast.tv_affiliation_duration.from_date",
+      "military.military_service.from_date",
+      "broadcast.callsign_duration.from_date",
+      "dining.restaurant_chef_association.from_date",
+      "business.company_brand_relationship.from_date",
+      "symbols.flag_use.from_date",
+      "law.judicial_tenure.from_date",
+      "boats.ship_ownership.from_date",
+      "business.company_product_line_relationship.from_date",
+      "royalty.monarch.from_date",
+      "military.military_posting.from_date",
+      "business.brand_slogan.from_date",
+      "fashion.designer_label_association.from_date",
+      "royalty.system_rank_relationship.from_date",
+      "military.military_post_use.from_date",
+      "rail.railway_type_relationship.from_date",
+      "religion.place_of_worship_historical_use.from_date",
+      "business.brand_colors.from_date",
+      "rail.railway_operator_relationship.from_date",
+      "rail.railway_gauge_relationship.from_date",
+      "sports.sports_official_tenure.from_date",
+      "broadcast.radio_affiliation_duration.from_date",
+      "rail.rolling_stock_tenure.from_date",
+      "rail.locomotive_ownership.from_date",
+      "law.court_courthouse_relationship.from_date",
+      "rail.locomotive_class_operator_relationship.from_date"
+    ],
+    "matches": [
+      "cricket.cricket_player_stats.matches",
+      "cricket.cricket_team_stats.matches"
+    ],
+    "opened": [
+      "architecture.structure.opened",
+      "amusement_parks.ride.opened",
+      "rail.railway.opened",
+      "zoos.zoo.opened",
+      "amusement_parks.park.opened",
+      "architecture.landscape_project.opened"
+    ],
+    "date completed": [
+      "visual_art.artwork.date_completed",
+      "music.composition.date_completed"
+    ],
+    "year": [
+      "measurement_unit.dated_integer.year",
+      "award.award_nomination.year",
+      "award.award_honor.year",
+      "award.ranking.year",
+      "education.acceptance_rate.year",
+      "tennis.tennis_tournament_championship.year",
+      "film.film_film_distributor_relationship.year",
+      "award.long_list_nomination.year",
+      "sports.sports_league_draft.year",
+      "award.award_judging_term.year",
+      "automotive.model_year.year",
+      "automotive.trim_level.year"
+    ],
+    "fta": [
+      "basketball.basketball_player_stats.fta",
+      "basketball.basketball_team_stats.fta"
+    ],
+    "rear shoulder room": [
+      "automotive.body_style.rear_shoulder_room",
+      "automotive.trim_level.rear_shoulder_room"
+    ],
+    "energy": [
+      "food.food.energy",
+      "engineering.battery_size_cell_variation.energy",
+      "engineering.battery.energy"
+    ],
+    "home runs": [
+      "baseball.batting_statistics.home_runs",
+      "baseball.lifetime_batting_statistics.home_runs"
+    ],
+    "date founded": [
+      "organization.organization.date_founded",
+      "location.dated_location.date_founded",
+      "medicine.hospital.date_founded",
+      "royalty.order_of_chivalry.date_founded",
+      "government.government_agency.date_founded",
+      "education.department.date_founded",
+      "film.film_festival.date_founded"
+    ],
+    "career end": [
+      "sports.pro_sports_played.career_end",
+      "sports.pro_athlete.career_end"
+    ],
+    "wins": [
+      "sports.sports_team_season_record.wins",
+      "baseball.baseball_team_stats.wins",
+      "basketball.basketball_team_stats.wins",
+      "cricket.cricket_team_stats.wins"
+    ],
+    "date written": [
+      "book.written_work.date_written",
+      "opera.opera.date_written"
+    ],
+    "at bats": [
+      "baseball.batting_statistics.at_bats",
+      "baseball.lifetime_batting_statistics.at_bats"
+    ],
+    "defensive rebounds": [
+      "basketball.basketball_player_stats.defensive_rebounds",
+      "basketball.basketball_player_career_stats.defensive_rebounds",
+      "basketball.basketball_team_stats.defensive_rebounds"
+    ],
+    "longest": [
+      "american_football.game_receiving_statistics.longest",
+      "american_football.player_receiving_statistics.longest",
+      "american_football.player_rushing_statistics.longest",
+      "american_football.game_rushing_statistics.longest"
+    ],
+    "as of week": [
+      "american_football.player_game_statistics.as_of_week",
+      "american_football.player_receiving_statistics.as_of_week",
+      "american_football.player_rushing_statistics.as_of_week",
+      "american_football.player_passing_statistics.as_of_week"
+    ],
+    "release date": [
+      "music.release.release_date",
+      "music.album.release_date",
+      "film.film_regional_release_date.release_date",
+      "cvg.game_version.release_date",
+      "cvg.computer_videogame.release_date",
+      "cvg.musical_game_song_relationship.release_date",
+      "interests.collectable_item.release_date",
+      "government.election_poll.release_date",
+      "computer.operating_system.release_date",
+      "biology.genome_build.release_date"
+    ],
+    "survivors": [
+      "aviation.airliner_accident.survivors",
+      "aviation.aviation_incident_aircraft_relationship.survivors"
+    ],
+    "issue date": [
+      "book.journal_publication.issue_date",
+      "law.us_patent.issue_date"
+    ],
+    "gdp": [
+      "baseball.batting_statistics.gdp",
+      "baseball.lifetime_batting_statistics.gdp"
+    ],
+    "time": [
+      "american_football.forty_yard_dash_time.time",
+      "distilled_spirits.spirit_aging.time"
+    ],
+    "capacity": [
+      "architecture.venue.capacity",
+      "amusement_parks.ride.capacity",
+      "skiing.lift_tenure.capacity",
+      "engineering.battery_size_cell_variation.capacity",
+      "engineering.piston_engine.capacity",
+      "engineering.battery.capacity"
+    ],
+    "start date": [
+      "time.event.start_date",
+      "education.education.start_date",
+      "people.place_lived.start_date",
+      "business.stock_ticker_symbol.start_date",
+      "projects.project.start_date",
+      "theater.theater_production_venue_relationship.start_date",
+      "tv.tv_program_writer_relationship.start_date",
+      "religion.religious_organization_leadership.start_date",
+      "architecture.ownership.start_date",
+      "business.company_name_change.start_date",
+      "celebrities.romantic_relationship.start_date",
+      "opera.opera_production_venue_relationship.start_date",
+      "cricket.cricket_coach_tenure.start_date",
+      "government.legislative_committee_membership.start_date",
+      "medicine.medical_trial.start_date",
+      "medicine.hospital_ownership.start_date",
+      "skiing.ski_area_ownership.start_date",
+      "music.concert.start_date"
+    ],
+    "receptions": [
+      "american_football.game_receiving_statistics.receptions",
+      "american_football.player_receiving_statistics.receptions"
+    ],
+    "founded": [
+      "sports.sports_team.founded",
+      "broadcast.radio_station.founded",
+      "broadcast.tv_station.founded",
+      "law.court.founded"
+    ],
+    "rank": [
+      "award.ranking.rank",
+      "sports.competitor_competition_relationship.rank"
+    ],
+    "height": [
+      "digicams.camera_dimensions.height",
+      "amusement_parks.ride.height",
+      "geography.waterfall.height",
+      "fictional_universe.fictional_character.height",
+      "book.book_edition.height",
+      "spaceflight.rocket_engine.height",
+      "automotive.trim_level.height",
+      "engineering.battery_size.height",
+      "rail.locomotive_class.height"
+    ],
+    "touchdowns": [
+      "american_football.game_receiving_statistics.touchdowns",
+      "american_football.player_receiving_statistics.touchdowns",
+      "american_football.player_rushing_statistics.touchdowns",
+      "american_football.game_rushing_statistics.touchdowns",
+      "american_football.player_passing_statistics.touchdowns",
+      "american_football.game_passing_statistics.touchdowns"
+    ],
+    "runs": [
+      "baseball.batting_statistics.runs",
+      "baseball.lifetime_batting_statistics.runs",
+      "cricket.cricket_player_stats.runs",
+      "cricket.cricket_roster_batting.runs",
+      "cricket.team_inning_batting_stats.runs"
+    ],
+    "average blocks": [
+      "basketball.basketball_player_stats.average_blocks",
+      "basketball.basketball_player_career_stats.average_blocks",
+      "basketball.basketball_team_stats.average_blocks"
+    ],
+    "fleet size": [
+      "aviation.airline.fleet_size",
+      "aviation.airline_alliance.fleet_size"
+    ],
+    "closing date": [
+      "business.business_location.closing_date",
+      "skiing.ski_area.closing_date",
+      "film.film_festival_event.closing_date"
+    ],
+    "date closed": [
+      "theater.theater_production.date_closed",
+      "opera.opera_production.date_closed",
+      "medicine.hospital.date_closed",
+      "education.department.date_closed",
+      "skiing.ski_run.date_closed"
+    ],
+    "wides": [
+      "cricket.cricket_roster_extras.wides",
+      "cricket.cricket_roster_bowling.wides"
+    ],
+    "fga": [
+      "basketball.basketball_player_stats.fga",
+      "basketball.basketball_team_stats.fga"
+    ],
+    "ibbs": [
+      "baseball.batting_statistics.ibbs",
+      "baseball.lifetime_batting_statistics.ibbs"
+    ],
+    "maiden flight": [
+      "aviation.aircraft_model.maiden_flight",
+      "spaceflight.rocket.maiden_flight"
+    ],
+    "injuries": [
+      "event.disaster.injuries",
+      "aviation.airliner_accident.injuries",
+      "amusement_parks.accident.injuries"
+    ],
+    "used from": [
+      "language.language_writing_system.used_from",
+      "symbols.armorial_grant.used_from"
+    ],
+    "games": [
+      "baseball.batting_statistics.games",
+      "american_football.player_game_statistics.games",
+      "basketball.basketball_player_stats.games",
+      "baseball.lifetime_batting_statistics.games"
+    ],
+    "height meters": [
+      "people.person.height_meters",
+      "architecture.structure.height_meters",
+      "measurement_unit.dimensions.height_meters",
+      "spaceflight.rocket.height_meters",
+      "biology.organism.height_meters"
+    ],
+    "abv": [
+      "distilled_spirits.distilled_spirit.abv",
+      "distilled_spirits.blended_spirit.abv",
+      "distilled_spirits.infused_spirit.abv"
+    ],
+    "date of birth": [
+      "people.person.date_of_birth",
+      "biology.organism.date_of_birth"
+    ],
+    "start": [
+      "music.group_membership.start",
+      "measurement_unit.time_interval.start",
+      "celebrities.substance_abuse_problem.start",
+      "celebrities.sexual_orientation_phase.start",
+      "cricket.cricket_umpire_panel_membership.start"
+    ],
+    "x": [
+      "measurement_unit.rect_size.x",
+      "time.geologic_time_period_uncertainty.x"
+    ],
+    "orbital period": [
+      "astronomy.orbital_relationship.orbital_period",
+      "base.exoplanetology.exoplanet.orbital_period"
+    ],
+    "doubles": [
+      "baseball.batting_statistics.doubles",
+      "baseball.lifetime_batting_statistics.doubles"
+    ],
+    "introduced": [
+      "rail.locomotive_class.introduced",
+      "aviation.aircraft_model.introduced",
+      "games.game.introduced",
+      "computer.programming_language.introduced",
+      "computer.computer.introduced",
+      "internet.top_level_domain.introduced",
+      "business.product_line.introduced",
+      "computer.computer_processor.introduced",
+      "food.candy_bar.introduced"
+    ],
+    "front shoulder room": [
+      "automotive.body_style.front_shoulder_room",
+      "automotive.trim_level.front_shoulder_room"
+    ],
+    "sacrifice flies": [
+      "baseball.batting_statistics.sacrifice_flies",
+      "baseball.lifetime_batting_statistics.sacrifice_flies"
+    ],
+    "date dissolved": [
+      "location.dated_location.date_dissolved",
+      "government.governmental_body.date_dissolved",
+      "government.legislative_committee.date_dissolved",
+      "organization.organization_committee.date_dissolved"
+    ],
+    "date discontinued": [
+      "award.award_category.date_discontinued",
+      "award.award_achievement_level.date_discontinued"
+    ],
+    "uncertainty": [
+      "chemistry.atomic_mass.uncertainty",
+      "chemistry.electron_affinity.uncertainty",
+      "astronomy.apparent_mass.uncertainty",
+      "astronomy.celestial_object_age.uncertainty",
+      "physics.subatomic_mass.uncertainty",
+      "physics.magnetic_moment.uncertainty",
+      "astronomy.number_of_stars.uncertainty"
+    ],
+    "longitude": [
+      "location.geocode.longitude",
+      "astronomy.planetographic_coordinate.longitude",
+      "spaceflight.satellite_orbit_synchronous.longitude"
+    ],
+    "elevation": [
+      "location.geocode.elevation",
+      "geography.mountain.elevation",
+      "geography.mountain_pass.elevation",
+      "astronomy.planetographic_coordinate.elevation"
+    ],
+    "voltage": [
+      "engineering.battery_size_cell_variation.voltage",
+      "engineering.battery.voltage"
+    ],
+    "total fatalities": [
+      "meteorology.tropical_cyclone.total_fatalities",
+      "meteorology.tropical_cyclone_season.total_fatalities"
+    ],
+    "completed": [
+      "celebrities.rehab.completed",
+      "spaceflight.space_program.completed"
+    ],
+    "base elevation": [
+      "skiing.ski_area.base_elevation",
+      "skiing.ski_lift.base_elevation"
+    ],
+    "interceptions": [
+      "american_football.player_passing_statistics.interceptions",
+      "american_football.game_passing_statistics.interceptions"
+    ],
+    "average turnovers": [
+      "basketball.basketball_player_stats.average_turnovers",
+      "basketball.basketball_player_career_stats.average_turnovers",
+      "basketball.basketball_team_stats.average_turnovers"
+    ],
+    "turnovers": [
+      "basketball.basketball_player_stats.turnovers",
+      "basketball.basketball_player_career_stats.turnovers",
+      "basketball.basketball_team_stats.turnovers"
+    ],
+    "weight": [
+      "digicams.digital_camera.weight",
+      "fictional_universe.fictional_character.weight",
+      "aviation.cargo_by_year.weight",
+      "rail.locomotive_class.weight",
+      "automotive.trim_level.weight"
+    ],
+    "points": [
+      "basketball.basketball_player_stats.points",
+      "boxing.match_boxer_relationship.points",
+      "basketball.basketball_player_career_stats.points",
+      "basketball.basketball_team_stats.points"
+    ],
+    "weight kg": [
+      "people.person.weight_kg",
+      "biology.organism.weight_kg"
+    ],
+    "crew": [
+      "aviation.airliner_accident.crew",
+      "aviation.aviation_incident_aircraft_relationship.crew"
+    ],
+    "sacrifice hits": [
+      "baseball.batting_statistics.sacrifice_hits",
+      "baseball.lifetime_batting_statistics.sacrifice_hits"
+    ],
+    "high value": [
+      "measurement_unit.integer_range.high_value",
+      "measurement_unit.floating_point_range.high_value"
+    ],
+    "launched": [
+      "boats.ship.launched",
+      "internet.website.launched"
+    ],
+    "yards": [
+      "american_football.game_receiving_statistics.yards",
+      "american_football.player_receiving_statistics.yards",
+      "american_football.player_rushing_statistics.yards",
+      "american_football.game_rushing_statistics.yards",
+      "american_football.player_passing_statistics.yards",
+      "american_football.game_passing_statistics.yards"
+    ],
+    "offensive rebounds": [
+      "basketball.basketball_player_stats.offensive_rebounds",
+      "basketball.basketball_player_career_stats.offensive_rebounds",
+      "basketball.basketball_team_stats.offensive_rebounds"
+    ],
+    "date of first performance": [
+      "theater.play.date_of_first_performance",
+      "opera.opera.date_of_first_performance",
+      "music.composition.date_of_first_performance"
+    ],
+    "batting average": [
+      "baseball.batting_statistics.batting_average",
+      "baseball.lifetime_batting_statistics.batting_average",
+      "cricket.cricket_player_stats.batting_average"
+    ],
+    "denominator": [
+      "measurement_unit.integer_ratio.denominator",
+      "measurement_unit.dated_ratio.denominator"
+    ],
+    "steals": [
+      "basketball.basketball_player_stats.steals",
+      "basketball.basketball_player_career_stats.steals",
+      "basketball.basketball_team_stats.steals"
+    ],
+    "valid date": [
+      "measurement_unit.dated_money_value.valid_date",
+      "base.lightweight.regional_dated_money_value.valid_date",
+      "business.market_size.valid_date"
+    ],
+    "semi major axis": [
+      "astronomy.orbital_relationship.semi_major_axis",
+      "base.exoplanetology.exoplanet.semi_major_axis"
+    ],
+    "width": [
+      "geography.lake.width",
+      "transportation.bridge.width",
+      "digicams.camera_dimensions.width",
+      "aviation.airport_runway.width",
+      "rail.railway_gauge_relationship.width",
+      "automotive.trim_level.width",
+      "rail.locomotive_class.width"
+    ],
+    "volume": [
+      "geography.body_of_water.volume",
+      "food.beer_production.volume"
+    ],
+    "rebounds": [
+      "basketball.basketball_player_stats.rebounds",
+      "basketball.basketball_player_career_stats.rebounds",
+      "basketball.basketball_team_stats.rebounds"
+    ],
+    "number": [
+      "measurement_unit.dated_integer.number",
+      "measurement_unit.dated_float.number",
+      "measurement_unit.dated_metric_ton.number",
+      "measurement_unit.dated_kgoe.number",
+      "measurement_unit.dated_kilowatt_hour.number",
+      "boats.warship_armament.number",
+      "physics.subatomic_particle_composition.number",
+      "boats.ship_powerplant_system.number",
+      "base.lightweight.regional_dated_integer.number",
+      "base.lightweight.regional_dated_float.number"
+    ],
+    "attempts": [
+      "american_football.player_passing_statistics.attempts",
+      "american_football.game_passing_statistics.attempts"
+    ],
+    "date formed": [
+      "government.governmental_body.date_formed",
+      "organization.organization_committee.date_formed",
+      "government.legislative_committee.date_formed"
+    ],
+    "overs": [
+      "cricket.cricket_bowler_stats.overs",
+      "cricket.cricket_roster_bowling.overs",
+      "cricket.team_inning_batting_stats.overs",
+      "cricket.cricket_match.overs"
+    ],
+    "rate": [
+      "measurement_unit.dated_percentage.rate",
+      "education.acceptance_rate.rate",
+      "medicine.survival_rate.rate"
+    ],
+    "front headroom": [
+      "automotive.body_style.front_headroom",
+      "automotive.trim_level.front_headroom"
+    ],
+    "wickets": [
+      "cricket.cricket_bowler_stats.wickets",
+      "cricket.cricket_roster_bowling.wickets",
+      "cricket.team_inning_batting_stats.wickets"
+    ],
+    "stars": [
+      "travel.hotel_grade.stars",
+      "astronomy.number_of_stars.stars"
+    ],
+    "average rebounds": [
+      "basketball.basketball_player_stats.average_rebounds",
+      "basketball.basketball_team_stats.average_rebounds"
+    ],
+    "mass": [
+      "chemistry.atomic_mass.mass",
+      "spaceflight.rocket.mass",
+      "astronomy.apparent_mass.mass",
+      "engineering.engine.mass",
+      "physics.subatomic_mass.mass",
+      "engineering.battery.mass",
+      "engineering.material_composition.mass"
+    ],
+    "hit by pitch": [
+      "baseball.batting_statistics.hit_by_pitch",
+      "baseball.lifetime_batting_statistics.hit_by_pitch"
+    ],
+    "absolute magnitude": [
+      "astronomy.star_system_body.absolute_magnitude",
+      "astronomy.celestial_object.absolute_magnitude"
+    ],
+    "season number": [
+      "tv.tv_series_episode.season_number",
+      "tv.tv_series_season.season_number"
+    ],
+    "hits": [
+      "baseball.batting_statistics.hits",
+      "baseball.lifetime_batting_statistics.hits"
+    ],
+    "formed": [
+      "transportation.road.formed",
+      "meteorology.tropical_cyclone.formed",
+      "military.military_unit.formed"
+    ],
+    "diameter": [
+      "spaceflight.rocket_engine.diameter",
+      "engineering.battery_size.diameter"
+    ],
+    "closed": [
+      "architecture.structure.closed",
+      "amusement_parks.ride.closed",
+      "amusement_parks.park.closed",
+      "rail.railway.closed",
+      "zoos.zoo.closed",
+      "architecture.landscape_project.closed"
+    ],
+    "cylinders": [
+      "boats.engine.cylinders",
+      "rail.steam_locomotive_class.cylinders"
+    ],
+    "average points": [
+      "basketball.basketball_player_stats.average_points",
+      "basketball.basketball_player_career_stats.average_points",
+      "basketball.basketball_team_stats.average_points"
+    ],
+    "three point percentage": [
+      "basketball.basketball_player_stats.three_point_percentage",
+      "basketball.basketball_player_career_stats.three_point_percentage",
+      "basketball.basketball_team_stats.three_point_percentage"
+    ],
+    "score": [
+      "government.election_poll_score.score",
+      "cricket.fall_of_wicket.score",
+      "american_football.football_game_score.score"
+    ],
+    "date opened": [
+      "theater.theater_production.date_opened",
+      "opera.opera_production.date_opened",
+      "skiing.ski_run.date_opened"
+    ],
+    "used until": [
+      "language.language_writing_system.used_until",
+      "symbols.armorial_grant.used_until"
+    ],
+    "losses": [
+      "sports.sports_team_season_record.losses",
+      "baseball.baseball_team_stats.losses",
+      "basketball.basketball_team_stats.losses",
+      "cricket.cricket_team_stats.losses"
+    ],
+    "melting point": [
+      "chemistry.chemical_compound.melting_point",
+      "chemistry.chemical_element.melting_point"
+    ],
+    "latitude": [
+      "location.geocode.latitude",
+      "astronomy.planetographic_coordinate.latitude"
+    ],
+    "creation date": [
+      "common.image.creation_date",
+      "computer.file_format.creation_date"
+    ],
+    "minute": [
+      "soccer.football_player_substitution.minute",
+      "soccer.football_goal.minute",
+      "soccer.football_disciplinary_action.minute"
+    ],
+    "amount": [
+      "measurement_unit.dated_money_value.amount",
+      "measurement_unit.money_value.amount",
+      "finance.exchange_rate.amount",
+      "measurement_unit.recurring_money_value.amount",
+      "business.holding.amount",
+      "location.imports_and_exports.amount",
+      "venture_capital.venture_investment.amount",
+      "location.imports_exports_by_industry.amount",
+      "book.newspaper_price.amount",
+      "base.lightweight.regional_dated_money_value.amount",
+      "business.market_size.amount"
+    ],
+    "number of episodes": [
+      "tv.tv_program.number_of_episodes",
+      "tv.tv_series_season.number_of_episodes"
+    ],
+    "percentage": [
+      "wine.grape_variety_composition.percentage",
+      "location.religion_percentage.percentage",
+      "chemistry.isotope_decay.percentage",
+      "business.market_share.percentage"
+    ],
+    "boiling point": [
+      "chemistry.chemical_compound.boiling_point",
+      "chemistry.chemical_element.boiling_point"
+    ],
+    "assists": [
+      "basketball.basketball_player_stats.assists",
+      "basketball.basketball_player_career_stats.assists",
+      "basketball.basketball_team_stats.assists"
+    ],
+    "rear headroom": [
+      "automotive.trim_level.rear_headroom",
+      "automotive.body_style.rear_headroom"
+    ],
+    "three fgm": [
+      "basketball.basketball_player_stats.three_fgm",
+      "basketball.basketball_team_stats.three_fgm"
+    ],
+    "fgm": [
+      "basketball.basketball_player_stats.fgm",
+      "basketball.basketball_team_stats.fgm"
+    ],
+    "quantity": [
+      "food.nutrition_fact.quantity",
+      "food.recipe_ingredient.quantity",
+      "business.currency_sub_unit.quantity"
+    ],
+    "size": [
+      "medicine.manufactured_drug_form.size",
+      "food.beer_containment.size"
+    ],
+    "ftm": [
+      "basketball.basketball_player_stats.ftm",
+      "basketball.basketball_team_stats.ftm"
+    ],
+    "carries": [
+      "american_football.player_rushing_statistics.carries",
+      "american_football.game_rushing_statistics.carries"
+    ],
+    "top elevation": [
+      "skiing.ski_area.top_elevation",
+      "skiing.ski_lift.top_elevation"
+    ],
+    "floor space square meters": [
+      "architecture.building.floor_space_square_meters",
+      "architecture.building_complex.floor_space_square_meters"
+    ],
+    "passengers": [
+      "aviation.airliner_accident.passengers",
+      "aviation.aviation_incident_aircraft_relationship.passengers"
+    ],
+    "average assists": [
+      "basketball.basketball_player_stats.average_assists",
+      "basketball.basketball_team_stats.average_assists"
+    ],
+    "bases on balls": [
+      "baseball.batting_statistics.bases_on_balls",
+      "baseball.lifetime_batting_statistics.bases_on_balls"
+    ],
+    "fatalities": [
+      "event.disaster.fatalities",
+      "aviation.airliner_accident.fatalities"
+    ],
+    "rbis": [
+      "baseball.batting_statistics.rbis",
+      "baseball.lifetime_batting_statistics.rbis"
+    ],
+    "discovery date": [
+      "astronomy.astronomical_discovery.discovery_date",
+      "chemistry.chemical_element.discovery_date"
+    ],
+    "runs against": [
+      "cricket.cricket_bowler_stats.runs_against",
+      "cricket.cricket_roster_bowling.runs_against"
+    ],
+    "three fga": [
+      "basketball.basketball_player_stats.three_fga",
+      "basketball.basketball_team_stats.three_fga"
+    ],
+    "ft percentage": [
+      "basketball.basketball_player_stats.ft_percentage",
+      "basketball.basketball_team_stats.ft_percentage"
+    ],
+    "wheelbase": [
+      "automotive.body_style.wheelbase",
+      "automotive.trim_level.wheelbase"
+    ],
+    "air date": [
+      "tv.tv_series_episode.air_date",
+      "radio.radio_program_episode.air_date"
+    ],
+    "area": [
+      "location.location.area",
+      "location.partial_containment_relationship.area",
+      "zoos.zoo.area",
+      "amusement_parks.park.area"
+    ],
+    "fg percentage": [
+      "basketball.basketball_player_stats.fg_percentage",
+      "basketball.basketball_team_stats.fg_percentage"
+    ],
+    "strikeouts": [
+      "baseball.batting_statistics.strikeouts",
+      "baseball.lifetime_batting_statistics.strikeouts"
+    ],
+    "blocks": [
+      "basketball.basketball_player_stats.blocks",
+      "basketball.basketball_player_career_stats.blocks",
+      "basketball.basketball_team_stats.blocks"
+    ],
+    "opening date": [
+      "business.business_location.opening_date",
+      "skiing.ski_area.opening_date",
+      "film.film_festival_event.opening_date"
+    ],
+    "initial release date": [
+      "film.film.initial_release_date",
+      "music.music_video.initial_release_date"
+    ],
+    "age": [
+      "distilled_spirits.distilled_spirit.age",
+      "olympics.olympic_torch_relay.age",
+      "astronomy.celestial_object_age.age",
+      "distilled_spirits.blended_spirit.age"
+    ],
+    "as of date": [
+      "organization.organization_relationship.as_of_date",
+      "organization.leadership.as_of_date",
+      "business.holding.as_of_date"
+    ],
+    "numerator": [
+      "measurement_unit.integer_ratio.numerator",
+      "measurement_unit.dated_ratio.numerator"
+    ],
+    "number of events": [
+      "sports.multi_event_tournament.number_of_events",
+      "olympics.olympic_games.number_of_events"
+    ],
+    "minimum altitude": [
+      "meteorology.cloud.minimum_altitude",
+      "meteorology.cloud_classification.minimum_altitude"
+    ],
+    "date revoked": [
+      "location.location_symbol_relationship.date_revoked",
+      "law.us_patent.date_revoked",
+      "business.currency_sub_unit.date_revoked"
+    ],
+    "career start": [
+      "sports.pro_sports_played.career_start",
+      "sports.pro_athlete.career_start"
+    ],
+    "date of death": [
+      "people.deceased_person.date_of_death",
+      "biology.deceased_organism.date_of_death"
+    ],
+    "front track": [
+      "automotive.body_style.front_track",
+      "automotive.trim_level.front_track"
+    ],
+    "depth": [
+      "geography.body_of_water.depth",
+      "digicams.camera_dimensions.depth"
+    ],
+    "date established": [
+      "award.award_category.date_established",
+      "protected_sites.protected_site.date_established",
+      "award.award_achievement_level.date_established"
+    ],
+    "low value": [
+      "measurement_unit.integer_range.low_value",
+      "measurement_unit.floating_point_range.low_value"
+    ],
+    "strike rate": [
+      "cricket.cricket_player_stats.strike_rate",
+      "cricket.cricket_bowler_stats.strike_rate"
+    ],
+    "average steals": [
+      "basketball.basketball_player_stats.average_steals",
+      "basketball.basketball_player_career_stats.average_steals",
+      "basketball.basketball_team_stats.average_steals"
+    ],
+    "rear track": [
+      "automotive.trim_level.rear_track",
+      "automotive.body_style.rear_track"
+    ],
+    "range": [
+      "aviation.aircraft_model.range",
+      "automotive.body_style.range"
+    ],
+    "no balls": [
+      "cricket.cricket_roster_bowling.no_balls",
+      "cricket.cricket_roster_extras.no_balls"
+    ],
+    "completions": [
+      "american_football.player_passing_statistics.completions",
+      "american_football.game_passing_statistics.completions"
+    ],
+    "power kw": [
+      "boats.nuclear_powerplant.power_kw",
+      "boats.engine.power_kw"
+    ],
+    "date created": [
+      "language.conlang.date_created",
+      "fictional_universe.fictional_object.date_created"
+    ]
+  }
+}

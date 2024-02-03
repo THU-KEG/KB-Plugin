@@ -1,0 +1,309 @@
+{
+  "relations": {
+    "winner": [
+      "government.election.winner",
+      "award.competition.winner",
+      "tennis.tennis_tournament_championship.winner"
+    ],
+    "type of event": [
+      "base.disaster2.injury.type_of_event",
+      "base.events.event_feed.type_of_event"
+    ],
+    "partially contains": [
+      "location.location.partially_contains",
+      "location.partial_containment_relationship.partially_contains"
+    ],
+    "track": [
+      "music.artist.track",
+      "music.track_contribution.track"
+    ],
+    "location": [
+      "people.place_lived.location",
+      "sports.sports_team.location",
+      "visual_art.artwork_location_relationship.location"
+    ],
+    "role": [
+      "music.group_membership.role",
+      "music.track_contribution.role",
+      "religion.religious_organization_leadership.role",
+      "organization.leadership.role"
+    ],
+    "position": [
+      "american_football.football_player.position_s",
+      "basketball.basketball_player.position_s",
+      "sports.sports_team_roster.position",
+      "people.appointee.position",
+      "baseball.baseball_player.position_s"
+    ],
+    "places lived": [
+      "people.person.places_lived",
+      "fictional_universe.fictional_character.places_lived"
+    ],
+    "children": [
+      "people.person.children",
+      "fictional_universe.fictional_character.children"
+    ],
+    "actor": [
+      "film.performance.actor",
+      "tv.regular_tv_appearance.actor",
+      "tv.tv_guest_role.actor"
+    ],
+    "regular cast": [
+      "tv.tv_program.regular_cast",
+      "tv.tv_series_season.regular_cast"
+    ],
+    "award winner": [
+      "sports.sports_award.award_winner",
+      "award.award_honor.award_winner"
+    ],
+    "school": [
+      "sports.sports_league_draft_pick.school",
+      "sports.school_sports_team.school"
+    ],
+    "teams": [
+      "sports.pro_athlete.teams",
+      "sports.sports_team_location.teams",
+      "sports.sports_league.teams"
+    ],
+    "film": [
+      "film.performance.film",
+      "film.actor.film",
+      "film.director.film",
+      "film.producer.film",
+      "film.personal_film_appearance.film",
+      "film.music_contributor.film",
+      "film.writer.film"
+    ],
+    "character": [
+      "film.performance.character",
+      "tv.regular_tv_appearance.character"
+    ],
+    "members": [
+      "government.governmental_body.members",
+      "organization.membership_organization.members",
+      "people.family.members"
+    ],
+    "parents": [
+      "people.person.parents",
+      "fictional_universe.fictional_character.parents"
+    ],
+    "award": [
+      "award.award_honor.award",
+      "sports.sports_award.award",
+      "award.award_nomination.award"
+    ],
+    "capital": [
+      "location.country.capital",
+      "base.aareas.schema.administrative_area.capital",
+      "location.province.capital",
+      "location.us_state.capital"
+    ],
+    "siblings": [
+      "fictional_universe.sibling_relationship_of_fictional_characters.siblings",
+      "fictional_universe.fictional_character.siblings"
+    ],
+    "industry": [
+      "business.business_operation.industry",
+      "location.imports_exports_by_industry.industry"
+    ],
+    "venue": [
+      "sports.sports_team.venue",
+      "sports.team_venue_relationship.venue"
+    ],
+    "parent": [
+      "organization.organization.parent",
+      "organization.organization_relationship.parent",
+      "base.rosetta.languoid.parent"
+    ],
+    "films": [
+      "film.person_or_entity_appearing_in_film.films",
+      "film.production_company.films"
+    ],
+    "special performance type": [
+      "film.performance.special_performance_type",
+      "tv.regular_tv_appearance.special_performance_type"
+    ],
+    "team": [
+      "sports.sports_team_roster.team",
+      "base.schemastaging.athlete_salary.team",
+      "basketball.basketball_player_stats.team",
+      "sports.sports_league_draft_pick.team",
+      "american_football.player_game_statistics.team",
+      "baseball.batting_statistics.team",
+      "soccer.football_team_manager.team",
+      "sports.sports_league_participation.team",
+      "american_football.football_historical_coach_position.team",
+      "base.formula1.formula_1_team_member.team",
+      "base.nascar.nascar_driver.team",
+      "sports.sports_team_coach_tenure.team",
+      "soccer.football_team_management_tenure.team"
+    ],
+    "country": [
+      "olympics.olympic_athlete.country",
+      "location.mailing_address.country",
+      "location.administrative_division.country",
+      "base.biblioness.bibs_location.country",
+      "film.film.country",
+      "people.family.country"
+    ],
+    "member": [
+      "organization.organization_membership.member",
+      "music.group_membership.member",
+      "music.musical_group.member",
+      "organization.organization_board_membership.member"
+    ],
+    "religion": [
+      "location.religion_percentage.religion",
+      "people.person.religion",
+      "base.popstra.celebrity.religion",
+      "base.popstra.religion_choice.religion"
+    ],
+    "person": [
+      "organization.leadership.person",
+      "business.employment_tenure.person"
+    ],
+    "owner": [
+      "book.newspaper.owner",
+      "boats.ship_ownership.owner",
+      "sports.professional_sports_team.owner_s"
+    ],
+    "winners": [
+      "sports.sports_award_type.winners",
+      "award.award_category.winners"
+    ],
+    "flag": [
+      "symbols.flag_use.flag",
+      "symbols.flag_referent.flag"
+    ],
+    "military conflict": [
+      "military.military_command.military_conflict",
+      "military.casualties.military_conflict"
+    ],
+    "combatants": [
+      "military.military_combatant_group.combatants",
+      "military.military_conflict.combatants"
+    ],
+    "locations": [
+      "time.event.locations",
+      "visual_art.artwork.locations"
+    ],
+    "languages": [
+      "language.language_writing_system.languages",
+      "fictional_universe.fictional_setting.languages"
+    ],
+    "title": [
+      "law.judicial_tenure.title",
+      "user.robert.roman_empire.roman_emperor.title",
+      "business.employment_tenure.title"
+    ],
+    "party": [
+      "government.political_party_tenure.party",
+      "government.politician.party"
+    ],
+    "sibling": [
+      "people.sibling_relationship.sibling",
+      "people.person.sibling_s"
+    ],
+    "education": [
+      "people.person.education",
+      "fictional_universe.fictional_character.education"
+    ],
+    "state": [
+      "base.biblioness.bibs_location.state",
+      "base.usnationalparks.us_national_park.state"
+    ],
+    "player": [
+      "sports.sports_team_roster.player",
+      "sports.sports_league_draft_pick.player"
+    ],
+    "gender": [
+      "people.person.gender",
+      "fictional_universe.fictional_character.gender"
+    ],
+    "season": [
+      "sports.sports_award.season",
+      "baseball.batting_statistics.season",
+      "basketball.basketball_player_stats.season"
+    ],
+    "sport": [
+      "sports.pro_sports_played.sport",
+      "sports.sports_team.sport",
+      "olympics.olympic_athlete_affiliation.sport"
+    ],
+    "participant": [
+      "base.popstra.dated.participant",
+      "base.popstra.infidelity.participant"
+    ],
+    "events": [
+      "location.location.events",
+      "sports.sports_championship.events"
+    ],
+    "place of birth": [
+      "people.person.place_of_birth",
+      "fictional_universe.fictional_character.place_of_birth"
+    ],
+    "spouse": [
+      "people.person.spouse_s",
+      "people.marriage.spouse"
+    ],
+    "titles": [
+      "media_common.netflix_genre.titles",
+      "royalty.noble_person.titles"
+    ],
+    "origin": [
+      "geography.river.origin",
+      "music.artist.origin"
+    ],
+    "coach": [
+      "sports.sports_team_coach_tenure.coach",
+      "american_football.football_historical_coach_position.coach",
+      "ice_hockey.hockey_team.coach"
+    ],
+    "languages spoken": [
+      "location.country.languages_spoken",
+      "people.ethnicity.languages_spoken"
+    ],
+    "genre": [
+      "music.artist.genre",
+      "book.book.genre"
+    ],
+    "program": [
+      "tv.tv_regular_personal_appearance.program",
+      "tv.tv_producer_term.program"
+    ],
+    "child": [
+      "organization.organization_relationship.child",
+      "organization.organization.child"
+    ],
+    "cuisine": [
+      "dining.restaurant.cuisine",
+      "food.dish.cuisine"
+    ]
+  },
+  "attributes": {
+    "from": [
+      "government.government_position_held.from",
+      "people.marriage.from",
+      "sports.sports_team_roster.from",
+      "tv.regular_tv_appearance.from",
+      "tv.tv_series_season.from",
+      "organization.organization_membership.from"
+    ],
+    "to": [
+      "people.marriage.to",
+      "american_football.football_historical_coach_position.to",
+      "sports.sports_team_roster.to",
+      "tv.tv_series_season.to",
+      "tv.regular_tv_appearance.to"
+    ],
+    "start date": [
+      "time.event.start_date",
+      "celebrities.romantic_relationship.start_date",
+      "religion.religious_organization_leadership.start_date"
+    ],
+    "end date": [
+      "time.event.end_date",
+      "religion.religious_organization_leadership.end_date"
+    ]
+  }
+}
