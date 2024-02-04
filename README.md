@@ -91,7 +91,7 @@ python eval_kb_plugin.py --dataset metaqa # soaybench
 
 ## Citation
 
-If you find our work useful, please consider citing LongAlign:
+If you find our work useful, please consider citing KB-Plugin:
 
 ```
 
