@@ -1,7 +1,7 @@
 # KB-Plugin: A Plug-and-play Framework for LLMs to Induce Programs over Low-resourced KBs
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=flat-square)](https://github.com/Neo-Zhangjiajie/ProbTree/issues)
 [![language-python3](https://img.shields.io/badge/Language-Python3-blue.svg?style=flat-square)](https://www.python.org/)
-[![paper](https://img.shields.io/badge/Paper-arxiv-lightgrey?style=flat-square)](https://arxiv.org)
+[![paper](https://img.shields.io/badge/Paper-arxiv-lightgrey?style=flat-square)](https://arxiv.org/pdf/2402.01619.pdf)
 
 >Program induction (PI) has become a promising paradigm for using knowledge bases (KBs) to help large language models (LLMs) answer complex knowledge-intensive questions. Nonetheless, PI typically relies on a large number of parallel question-program pairs to make the LLM aware of the schema of the given KB, and is thus challenging for many low-resourced KBs that lack annotated data. To this end, we propose **KB-Plugin**, a plug-and-play framework that enables LLMs to induce programs over any low-resourced KB. Firstly, KB-Plugin adopts self-supervised learning to encode the detailed schema information of a given KB into a pluggable module, namely **schema plugin**. Secondly, KB-Plugin utilizes abundant annotated data from a rich-resourced KB to train another pluggable module, namely **PI plugin**, which can help the LLM extract question-relevant schema information from the schema plugin of any KB and utilize this information to induce programs over this KB. Experiments on five heterogeneous KBQA datasets show that KB-Plugin achieves better or comparable performance with 25x smaller backbone LLM compared to SoTA PI methods for low-resourced KBs, and even approaches the performance of supervised methods. 
 
@@ -94,5 +94,10 @@ python eval_kb_plugin.py --dataset metaqa # soaybench
 If you find our work useful, please consider citing KB-Plugin:
 
 ```
-
+@article{zhang2024kbplugin,
+      title={KB-Plugin: A Plug-and-play Framework for Large Language Models to Induce Programs over Low-resourced Knowledge Bases}, 
+      author={Jiajie Zhang and Shulin Cao and Linmei Hu and Ling Feng and Lei Hou and Juanzi Li},
+      journal={arXiv preprint arXiv:2402.01619},
+      year={2024}
+}
 ```
