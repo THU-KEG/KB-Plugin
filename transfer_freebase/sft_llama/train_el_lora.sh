@@ -5,7 +5,7 @@ bs=128
 num_gpus=1
 lr=1e-5
 model_name_or_path="../../models_hf/llama-2-7b"
-num_train_epochs=3
+num_train_epochs=1
 save_steps=1000
 
 total_per_device=$((${total_bs}/${num_gpus}))
