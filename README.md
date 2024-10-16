@@ -1,4 +1,4 @@
-# KB-Plugin: A Plug-and-play Framework for LLMs to Induce Programs over Low-resourced KBs
+# [EMNLP2024] KB-Plugin: A Plug-and-play Framework for LLMs to Induce Programs over Low-resourced KBs
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=flat-square)](https://github.com/Neo-Zhangjiajie/ProbTree/issues)
 [![language-python3](https://img.shields.io/badge/Language-Python3-blue.svg?style=flat-square)](https://www.python.org/)
 [![paper](https://img.shields.io/badge/Paper-arxiv-lightgrey?style=flat-square)](https://arxiv.org/pdf/2402.01619.pdf)
